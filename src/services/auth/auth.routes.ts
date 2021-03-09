@@ -1,12 +1,16 @@
 import express from "express";
 import passport from "passport";
-import { signup, login, refreshTokenHandler } from "./auth.controllers";
+import { signup, login, refreshTokenHandler, logout } from "./auth.controllers";
 import tryCatchWrapper from "../../utils/errors/tryCatchWrapper";
 import handleTokens from "../../middlewares/auth/tokenHandling";
+import { validateToken } from "../../middlewares/auth/validateToken";
 const authRouter = express.Router();
 
 authRouter.post("/login", tryCatchWrapper(login));
 authRouter.post("/signup", tryCatchWrapper(signup));
+
+authRouter.get("/logout", validateToken, tryCatchWrapper(logout));
+
 authRouter.post("/refreshToken", tryCatchWrapper(refreshTokenHandler));
 
 // 😇 OAUTH

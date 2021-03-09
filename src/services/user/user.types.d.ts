@@ -3,6 +3,7 @@ import { Document, Model } from "mongoose";
 type Token = {
 	token: string | undefined;
 };
+
 type FindByCredentials = (email: string, password: string) => IUser | null;
 
 export interface IUser extends Document {

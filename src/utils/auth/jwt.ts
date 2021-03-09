@@ -1,6 +1,4 @@
 import jwt from "jsonwebtoken";
-import { UserModel } from "../../services/user";
-import ApiError from "../errors/ApiError";
 import { IUser } from "../../services/user/user.types.d";
 import { IPayload } from "./auth.types";
 const { jwtSecret, jwtRefreshSecret } = require("../../config/keys");

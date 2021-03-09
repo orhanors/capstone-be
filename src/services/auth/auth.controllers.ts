@@ -1,5 +1,5 @@
 import { Request, Response, NextFunction } from "express";
-import { UserModel } from "../user";
+import { IUser, UserModel } from "../user";
 import ApiError from "../../utils/errors/ApiError";
 import { generateTokens } from "../../utils/auth/jwt";
 import { refreshTokenPath } from "../../settings/constants";
@@ -45,4 +45,15 @@ export const refreshTokenHandler = async (req: Request, res: Response) => {
 	res.cookie("token", newTokens.token);
 	res.cookie("refreshToken", newTokens.refreshToken);
 	res.status(200).send("Ok");
+};
+
+//NOTE Logout from all devices. It deletes all refresh token
+export const logout = async (req: Request, res: Response) => {
+	const user = req.user as IUser;
+	user.refreshTokens = [];
+	await user.save();
+	res.clearCookie("token");
+	res.clearCookie("refreshToken");
+	res.cookie("isAuthUser", false);
+	res.send("OK");
 };

@@ -6,9 +6,8 @@ import { logger } from "./utils/logger/winston";
 import ApiError from "./utils/errors/ApiError";
 const { port } = require("./config/keys");
 
-require("express-async-errors"); //removes try-catch block needs
 const server = express();
-
+require("./middlewares/auth/passport");
 initialSetup(server); //Keeps initial middlewares
 errorHandling(server);
 dbConnection();

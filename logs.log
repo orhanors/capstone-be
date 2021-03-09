@@ -1302,3 +1302,171 @@
  
 ✅ info: 🚀 Connected to DB...    
  
+✅ info: 🚀 Server is running LOCALLY on PORT:     
+ 
+✅ info: 🚀 Connected to DB...    
+ 
+✅ info: 🚀 Server is running LOCALLY on PORT:     
+ 
+✅ info: 🚀 Connected to DB...    
+ 
+✅ info: 🚀 Server is running LOCALLY on PORT:     
+ 
+✅ info: 🚀 Connected to DB...    
+ 
+✅ info: 🚀 Server is running LOCALLY on PORT:     
+ 
+✅ info: 🚀 Connected to DB...    
+ 
+✅ info: 🚀 Server is running LOCALLY on PORT:     
+ 
+✅ info: 🚀 Connected to DB...    
+ 
+✅ info: 🚀 Server is running LOCALLY on PORT:     
+ 
+✅ info: 🚀 Connected to DB...    
+ 
+✅ info: 🚀 Server is running LOCALLY on PORT:     
+ 
+✅ info: 🚀 Connected to DB...    
+ 
+✅ info: 🚀 Server is running LOCALLY on PORT:     
+ 
+✅ info: 🚀 Connected to DB...    
+ 
+✅ info: 🚀 Server is running LOCALLY on PORT:     
+ 
+✅ info: 🚀 Connected to DB...    
+ 
+✅ info: 🚀 Server is running LOCALLY on PORT:     
+ 
+✅ info: 🚀 Connected to DB...    
+ 
+✅ info: 🚀 Server is running LOCALLY on PORT:     
+ 
+✅ info: 🚀 Connected to DB...    
+ 
+✅ info: 🚀 Server is running LOCALLY on PORT:     
+ 
+✅ info: 🚀 Connected to DB...    
+ 
+✅ info: 🚀 Server is running LOCALLY on PORT:     
+ 
+✅ info: 🚀 Connected to DB...    
+ 
+✅ info: 🚀 Server is running LOCALLY on PORT:     
+ 
+✅ info: 🚀 Connected to DB...    
+ 
+✅ info: 🚀 Server is running LOCALLY on PORT:     
+ 
+✅ info: 🚀 Connected to DB...    
+ 
+✅ info: 🚀 Server is running LOCALLY on PORT:     
+ 
+✅ info: 🚀 Connected to DB...    
+ 
+✅ info: 🚀 Server is running LOCALLY on PORT:     
+ 
+✅ info: 🚀 Server is running LOCALLY on PORT:     
+ 
+✅ info: 🚀 Connected to DB...    
+ 
+✅ info: 🚀 Server is running LOCALLY on PORT:     
+ 
+✅ info: 🚀 Connected to DB...    
+ 
+❌ error: Malformed auth code. | 🕗 2021-03-09T17:24:56   
+ TokenError: Malformed auth code.
+    at Strategy.OAuth2Strategy.parseErrorResponse (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/passport-oauth2/lib/strategy.js:358:12)
+    at Strategy.OAuth2Strategy._createOAuthError (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/passport-oauth2/lib/strategy.js:405:16)
+    at /home/orhanors/Desktop/ME/Capstone/backend/node_modules/passport-oauth2/lib/strategy.js:175:45
+    at /home/orhanors/Desktop/ME/Capstone/backend/node_modules/oauth/lib/oauth2.js:191:18
+    at passBackControl (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/oauth/lib/oauth2.js:132:9)
+    at IncomingMessage.<anonymous> (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/oauth/lib/oauth2.js:157:7)
+    at IncomingMessage.emit (events.js:326:22)
+    at IncomingMessage.EventEmitter.emit (domain.js:486:12)
+    at endReadableNT (_stream_readable.js:1252:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21)
+✅ info: 🚀 Server is running LOCALLY on PORT:     
+ 
+✅ info: 🚀 Connected to DB...    
+ 
+✅ info: 🚀 Server is running LOCALLY on PORT:     
+ 
+✅ info: 🚀 Connected to DB...    
+ 
+✅ info: 🚀 Server is running LOCALLY on PORT:     
+ 
+✅ info: 🚀 Connected to DB...    
+ 
+✅ info: 🚀 Server is running LOCALLY on PORT:     
+ 
+✅ info: 🚀 Connected to DB...    
+ 
+✅ info: 🚀 Server is running LOCALLY on PORT:     
+ 
+✅ info: 🚀 Connected to DB...    
+ 
+✅ info: 🚀 Server is running LOCALLY on PORT:     
+ 
+✅ info: 🚀 Connected to DB...    
+ 
+✅ info: 🚀 Server is running LOCALLY on PORT:     
+ 
+✅ info: 🚀 Connected to DB...    
+ 
+✅ info: 🚀 Server is running LOCALLY on PORT:     
+ 
+✅ info: 🚀 Server is running LOCALLY on PORT:     
+ 
+✅ info: 🚀 Connected to DB...    
+ 
+✅ info: 🚀 Server is running LOCALLY on PORT:     
+ 
+✅ info: 🚀 Connected to DB...    
+ 
+✅ info: 🚀 Server is running LOCALLY on PORT:     
+ 
+✅ info: 🚀 Connected to DB...    
+ 
+✅ info: 🚀 Server is running LOCALLY on PORT:     
+ 
+✅ info: 🚀 Connected to DB...    
+ 
+✅ info: 🚀 Server is running LOCALLY on PORT:     
+ 
+✅ info: 🚀 Connected to DB...    
+ 
+✅ info: 🚀 Server is running LOCALLY on PORT:     
+ 
+✅ info: 🚀 Connected to DB...    
+ 
+✅ info: 🚀 Server is running LOCALLY on PORT:     
+ 
+✅ info: 🚀 Connected to DB...    
+ 
+✅ info: 🚀 Server is running LOCALLY on PORT:     
+ 
+✅ info: 🚀 Connected to DB...    
+ 
+✅ info: 🚀 Server is running LOCALLY on PORT:     
+ 
+✅ info: 🚀 Connected to DB...    
+ 
+✅ info: 🚀 Server is running LOCALLY on PORT:     
+ 
+✅ info: 🚀 Connected to DB...    
+ 
+✅ info: 🚀 Server is running LOCALLY on PORT:     
+ 
+✅ info: 🚀 Connected to DB...    
+ 
+✅ info: 🚀 Server is running LOCALLY on PORT:     
+ 
+✅ info: 🚀 Connected to DB...    
+ 
+✅ info: 🚀 Server is running LOCALLY on PORT:     
+ 
+✅ info: 🚀 Connected to DB...    
+ 
