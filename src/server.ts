@@ -1,7 +1,7 @@
 import express from "express";
 import initialSetup from "./startup/middlewares";
 import dbConnection from "./startup/db";
-import errorHandling from "./middlewares/errorHandling";
+import errorHandling from "./middlewares/error/errorHandling";
 import { logger } from "./utils/logger/winston";
 import ApiError from "./utils/errors/ApiError";
 const { port } = require("./config/keys");

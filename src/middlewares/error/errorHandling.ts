@@ -1,5 +1,5 @@
 import { Request, Response, NextFunction, Router, Application } from "express";
-import { logger } from "../utils/logger/winston";
+import { logger } from "../../utils/logger/winston";
 //import logger from "../../utils/logger/winston";
 
 interface IError {

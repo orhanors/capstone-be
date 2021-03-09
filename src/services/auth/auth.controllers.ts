@@ -1,0 +1,48 @@
+import { Request, Response, NextFunction } from "express";
+import { UserModel } from "../user";
+import ApiError from "../../utils/errors/ApiError";
+import { generateTokens } from "../../utils/auth/jwt";
+import { refreshTokenPath } from "../../settings/constants";
+import { handleRefreshToken } from "../../utils/auth/refreshTokenHandler";
+
+export const signup = async (req: Request, res: Response) => {
+	const { email } = req.body;
+	const foundUserWithEmail = await UserModel.findOne({ email });
+
+	if (foundUserWithEmail) {
+		throw new ApiError(400, "Email already exist!");
+	}
+	const newUser = new UserModel({ ...req.body });
+	await newUser.save();
+
+	res.status(201).send(newUser);
+};
+
+export const login = async (req: Request, res: Response) => {
+	const { email, password } = req.body;
+
+	const user = await UserModel.findByCredentials(email, password);
+
+	if (!user) throw new ApiError(400, "Invalid email or password");
+
+	const tokens = await generateTokens(user);
+
+	res.cookie("token", tokens.token, { httpOnly: true });
+	res.cookie("refreshToken", tokens.refreshToken, {
+		httpOnly: true,
+		path: refreshTokenPath,
+	});
+	res.cookie("isAuthUser", true);
+	res.status(200).send("Ok");
+};
+
+export const refreshTokenHandler = async (req: Request, res: Response) => {
+	const oldRefreshToken = req.cookies.refreshToken;
+	if (!oldRefreshToken) throw new ApiError(400, "Refresh token not found!");
+
+	const newTokens = await handleRefreshToken(oldRefreshToken);
+
+	res.cookie("token", newTokens.token);
+	res.cookie("refreshToken", newTokens.refreshToken);
+	res.status(200).send("Ok");
+};
