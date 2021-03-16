@@ -2,7 +2,7 @@ import { Request, Response, NextFunction, Router, Application } from "express";
 import { logger } from "../../utils/logger/winston";
 //import logger from "../../utils/logger/winston";
 
-interface IError {
+interface IError extends Error {
 	message: string;
 	httpStatusCode: number;
 	stack?: string;
@@ -73,6 +73,13 @@ const genericHandler = (
 ) => {
 	if (!res.headersSent) {
 		logger.error(err);
+
+		if (err.name === "CastError") {
+			res.status(400).json({
+				errors: "Not Found!",
+				code: 400,
+			});
+		}
 		return res.status(err.httpStatusCode || 500).json({
 			errors: err.message || "Internal Server Error!",
 			code: 500,
