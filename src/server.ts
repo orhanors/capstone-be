@@ -8,6 +8,7 @@ const { port } = require("./config/keys");
 
 const server = express();
 require("./middlewares/auth/passport");
+require("./startup/optimization"); //optimize threads according to different machines
 initialSetup(server); //Keeps initial middlewares
 errorHandling(server);
 dbConnection();
