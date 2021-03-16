@@ -1,3 +1,7 @@
+// 🧶 Products
+export const maxProductImageSize = 6;
+export const productImageKey = "product";
+export const productCloudinaryFolder = "capstone";
 // 👨 USER SCHEMA
 export const userRoles = {
 	admin: "admin",

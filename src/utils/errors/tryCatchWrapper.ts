@@ -1,6 +1,6 @@
 import { Request, Response, NextFunction } from "express";
 
-type IHandler = (req: Request, res: Response) => void;
+type IHandler = (req: Request, res: Response, next?: NextFunction) => void;
 
 /**
  * Takes express middleware and operates try-catch block.
