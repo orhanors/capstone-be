@@ -1,1480 +1,965 @@
-✅     info: 🚀 Server is running LOCALLY on PORT:  
+✅ info: 🚀 Server is running LOCALLY on PORT: , 3001    
  
-✅     info: 🚀 Server is running LOCALLY on PORT:  
+✅ info: 🚀 Connected to DB...    
  
-✅     info: 🚀 Server is running LOCALLY on PORT:  
+✅ info: 🚀 Server is running LOCALLY on PORT: , 3001    
  
-✅     info: 🚀 Server is running LOCALLY on PORT:  
+✅ info: 🚀 Connected to DB...    
  
-✅     info: 🚀 Server is running LOCALLY on PORT:  
+✅ info: 🚀 Server is running LOCALLY on PORT: , 3001    
  
-✅     info: 🚀 Connected to DB... 
+✅ info: 🚀 Connected to DB...    
  
-✅     info: 🚀 Server is running LOCALLY on PORT:  
+✅ info: 🚀 Server is running LOCALLY on PORT: , 3001    
  
-❌  2021-03-09T12:13:43   error: ❌ DB connection err:  Invalid connection string 
- MongoParseError: Invalid connection string
-    at parseConnectionString (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/mongodb/lib/core/uri_parser.js:572:21)
-    at connect (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/mongodb/lib/operations/connect.js:284:3)
-    at /home/orhanors/Desktop/ME/Capstone/backend/node_modules/mongodb/lib/mongo_client.js:225:5
-    at maybePromise (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/mongodb/lib/utils.js:681:3)
-    at MongoClient.connect (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/mongodb/lib/mongo_client.js:221:10)
-    at /home/orhanors/Desktop/ME/Capstone/backend/node_modules/mongoose/lib/connection.js:833:12
+✅ info: 🚀 Connected to DB...    
+ 
+✅ info: 🚀 Server is running LOCALLY on PORT: , 3001    
+ 
+✅ info: 🚀 Connected to DB...    
+ 
+✅ info: 🚀 Server is running LOCALLY on PORT: , 3001    
+ 
+✅ info: 🚀 Connected to DB...    
+ 
+✅ info: 🚀 Server is running LOCALLY on PORT: , 3001    
+ 
+✅ info: 🚀 Connected to DB...    
+ 
+✅ info: 🚀 Server is running LOCALLY on PORT: , 3001    
+ 
+✅ info: 🚀 Connected to DB...    
+ 
+✅ info: 🚀 Server is running LOCALLY on PORT: , 3001    
+ 
+✅ info: 🚀 Connected to DB...    
+ 
+✅ info: 🚀 Server is running LOCALLY on PORT: , 3001    
+ 
+✅ info: 🚀 Connected to DB...    
+ 
+✅ info: 🚀 Server is running LOCALLY on PORT: , 3001    
+ 
+✅ info: 🚀 Connected to DB...    
+ 
+✅ info: 🚀 Server is running LOCALLY on PORT: , 3001    
+ 
+✅ info: 🚀 Connected to DB...    
+ 
+✅ info: 🚀 Server is running LOCALLY on PORT: , 3001    
+ 
+✅ info: 🚀 Connected to DB...    
+ 
+✅ info: 🚀 Server is running LOCALLY on PORT: , 3001    
+ 
+✅ info: 🚀 Connected to DB...    
+ 
+✅ info: 🚀 Server is running LOCALLY on PORT: , 3001    
+ 
+✅ info: 🚀 Connected to DB...    
+ 
+❌ error: Product not found | 🕗 2021-03-16T17:59:48   
+ Error: Product not found
+    at new ApiError (/home/orhanors/Desktop/ME/Capstone/backend/src/utils/errors/ApiError.ts:6:3)
+    at /home/orhanors/Desktop/ME/Capstone/backend/src/services/product/product.controller.ts:31:29
+    at step (/home/orhanors/Desktop/ME/Capstone/backend/src/services/product/product.controller.ts:44:23)
+    at Object.next (/home/orhanors/Desktop/ME/Capstone/backend/src/services/product/product.controller.ts:25:53)
+    at fulfilled (/home/orhanors/Desktop/ME/Capstone/backend/src/services/product/product.controller.ts:16:58)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+✅ info: 🚀 Server is running LOCALLY on PORT: , 3001    
+ 
+✅ info: 🚀 Connected to DB...    
+ 
+✅ info: 🚀 Server is running LOCALLY on PORT: , 3001    
+ 
+✅ info: 🚀 Connected to DB...    
+ 
+❌ error: Cannot read property 'images' of null | 🕗 2021-03-16T18:01:31   
+ TypeError: Cannot read property 'images' of null
+    at /home/orhanors/Desktop/ME/Capstone/backend/src/utils/products/deleteImages.ts:27:13
+    at step (/home/orhanors/Desktop/ME/Capstone/backend/src/utils/products/deleteImages.ts:33:23)
+    at Object.next (/home/orhanors/Desktop/ME/Capstone/backend/src/utils/products/deleteImages.ts:14:53)
+    at /home/orhanors/Desktop/ME/Capstone/backend/src/utils/products/deleteImages.ts:8:71
     at new Promise (<anonymous>)
-    at NativeConnection.Connection.openUri (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/mongoose/lib/connection.js:830:19)
-    at /home/orhanors/Desktop/ME/Capstone/backend/node_modules/mongoose/lib/index.js:345:10
-    at /home/orhanors/Desktop/ME/Capstone/backend/node_modules/mongoose/lib/helpers/promiseOrCallback.js:31:5
+    at __awaiter (/home/orhanors/Desktop/ME/Capstone/backend/src/utils/products/deleteImages.ts:4:12)
+    at Object.deleteProductImages (/home/orhanors/Desktop/ME/Capstone/backend/src/utils/products/deleteImages.ts:22:26)
+    at /home/orhanors/Desktop/ME/Capstone/backend/src/services/product/product.controller.ts:31:33
+    at step (/home/orhanors/Desktop/ME/Capstone/backend/src/services/product/product.controller.ts:44:23)
+    at Object.next (/home/orhanors/Desktop/ME/Capstone/backend/src/services/product/product.controller.ts:25:53)
+    at fulfilled (/home/orhanors/Desktop/ME/Capstone/backend/src/services/product/product.controller.ts:16:58)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+❌ error: Product not found | 🕗 2021-03-16T18:01:31   
+ Error: Product not found
+    at new ApiError (/home/orhanors/Desktop/ME/Capstone/backend/src/utils/errors/ApiError.ts:6:3)
+    at /home/orhanors/Desktop/ME/Capstone/backend/src/services/product/product.controller.ts:32:29
+    at step (/home/orhanors/Desktop/ME/Capstone/backend/src/services/product/product.controller.ts:44:23)
+    at Object.next (/home/orhanors/Desktop/ME/Capstone/backend/src/services/product/product.controller.ts:25:53)
+    at fulfilled (/home/orhanors/Desktop/ME/Capstone/backend/src/services/product/product.controller.ts:16:58)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+❌ error: Product not found | 🕗 2021-03-16T18:02:04   
+ Error: Product not found
+    at new ApiError (/home/orhanors/Desktop/ME/Capstone/backend/src/utils/errors/ApiError.ts:6:3)
+    at /home/orhanors/Desktop/ME/Capstone/backend/src/services/product/product.controller.ts:10:22
+    at step (/home/orhanors/Desktop/ME/Capstone/backend/src/services/product/product.controller.ts:44:23)
+    at Object.next (/home/orhanors/Desktop/ME/Capstone/backend/src/services/product/product.controller.ts:25:53)
+    at fulfilled (/home/orhanors/Desktop/ME/Capstone/backend/src/services/product/product.controller.ts:16:58)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+❌ error: Internal Server Error | 🕗 2021-03-16T18:03:00   
+ Error: Internal Server Error
+    at new ApiError (/home/orhanors/Desktop/ME/Capstone/backend/src/utils/errors/ApiError.ts:6:3)
+    at /home/orhanors/Desktop/ME/Capstone/backend/src/services/product/product.controller.ts:33:31
+    at step (/home/orhanors/Desktop/ME/Capstone/backend/src/services/product/product.controller.ts:44:23)
+    at Object.next (/home/orhanors/Desktop/ME/Capstone/backend/src/services/product/product.controller.ts:25:53)
+    at fulfilled (/home/orhanors/Desktop/ME/Capstone/backend/src/services/product/product.controller.ts:16:58)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+✅ info: Image deleted    
+ 
+✅ info: Image deleted    
+ 
+✅ info: 🚀 Server is running LOCALLY on PORT: , 3001    
+ 
+✅ info: 🚀 Connected to DB...    
+ 
+❌ error: Cannot read property 'images' of null | 🕗 2021-03-16T18:03:47   
+ TypeError: Cannot read property 'images' of null
+    at /home/orhanors/Desktop/ME/Capstone/backend/src/utils/products/deleteImages.ts:27:13
+    at step (/home/orhanors/Desktop/ME/Capstone/backend/src/utils/products/deleteImages.ts:33:23)
+    at Object.next (/home/orhanors/Desktop/ME/Capstone/backend/src/utils/products/deleteImages.ts:14:53)
+    at /home/orhanors/Desktop/ME/Capstone/backend/src/utils/products/deleteImages.ts:8:71
     at new Promise (<anonymous>)
-    at promiseOrCallback (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/mongoose/lib/helpers/promiseOrCallback.js:30:10)
-    at Mongoose._promiseOrCallback (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/mongoose/lib/index.js:1135:10)
-    at Mongoose.connect (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/mongoose/lib/index.js:344:20)
-    at Object.dbConnection [as default] (/home/orhanors/Desktop/ME/Capstone/backend/src/startup/db.ts:6:4)
-    at Object.<anonymous> (/home/orhanors/Desktop/ME/Capstone/backend/src/server.ts:12:13)
-✅     info: 🚀 Server is running LOCALLY on PORT:  
- 
-✅     info: 🚀 Connected to DB... 
- 
-✅     info: 🚀 Server is running LOCALLY on PORT:  
- 
-✅     info: 🚀 Connected to DB... 
- 
-✅     info: 🚀 Server is running LOCALLY on PORT:  
- 
-✅     info: 🚀 Connected to DB... 
- 
-✅     info: 🚀 Server is running LOCALLY on PORT:  
- 
-✅     info: 🚀 Connected to DB... 
- 
-✅     info: 🚀 Server is running LOCALLY on PORT:  
- 
-✅     info: 🚀 Connected to DB... 
- 
-✅     info: 🚀 Server is running LOCALLY on PORT:  
- 
-✅     info: 🚀 Connected to DB... 
- 
-✅     info: 🚀 Server is running LOCALLY on PORT:  
- 
-✅     info: 🚀 Connected to DB... 
- 
-✅     info: 🚀 Server is running LOCALLY on PORT:  
- 
-✅     info: 🚀 Connected to DB... 
- 
-✅     info: 🚀 Server is running LOCALLY on PORT:  
- 
-✅     info: 🚀 Connected to DB... 
- 
-❌  2021-03-09T12:21:29   error: Internal Server Error 
- Error: Internal Server Error
+    at __awaiter (/home/orhanors/Desktop/ME/Capstone/backend/src/utils/products/deleteImages.ts:4:12)
+    at Object.deleteProductImages (/home/orhanors/Desktop/ME/Capstone/backend/src/utils/products/deleteImages.ts:22:26)
+    at /home/orhanors/Desktop/ME/Capstone/backend/src/services/product/product.controller.ts:31:33
+    at step (/home/orhanors/Desktop/ME/Capstone/backend/src/services/product/product.controller.ts:44:23)
+    at Object.next (/home/orhanors/Desktop/ME/Capstone/backend/src/services/product/product.controller.ts:25:53)
+    at fulfilled (/home/orhanors/Desktop/ME/Capstone/backend/src/services/product/product.controller.ts:16:58)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+❌ error: Product not found | 🕗 2021-03-16T18:03:47   
+ Error: Product not found
     at new ApiError (/home/orhanors/Desktop/ME/Capstone/backend/src/utils/errors/ApiError.ts:6:3)
-    at /home/orhanors/Desktop/ME/Capstone/backend/src/server.ts:16:9
-    at Layer.handle [as handle_request] (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/layer.js:95:5)
-    at next (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/route.js:137:13)
-    at Route.dispatch (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/route.js:112:3)
-    at Layer.handle [as handle_request] (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/layer.js:95:5)
-    at /home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/index.js:281:22
-    at Function.process_params (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/index.js:335:12)
-    at next (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/index.js:275:10)
-    at expressInit (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/middleware/init.js:40:5)
-    at Layer.handle [as handle_request] (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/layer.js:95:5)
-    at trim_prefix (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/index.js:317:13)
-    at /home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/index.js:284:7
-    at Function.process_params (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/index.js:335:12)
-    at next (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/index.js:275:10)
-    at query (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/middleware/query.js:45:5)
-❌  2021-03-09T12:21:33   error: Internal Server Error 
- Error: Internal Server Error
+    at /home/orhanors/Desktop/ME/Capstone/backend/src/services/product/product.controller.ts:33:29
+    at step (/home/orhanors/Desktop/ME/Capstone/backend/src/services/product/product.controller.ts:44:23)
+    at Object.next (/home/orhanors/Desktop/ME/Capstone/backend/src/services/product/product.controller.ts:25:53)
+    at fulfilled (/home/orhanors/Desktop/ME/Capstone/backend/src/services/product/product.controller.ts:16:58)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+✅ info: 🚀 Server is running LOCALLY on PORT: , 3001    
+ 
+✅ info: 🚀 Connected to DB...    
+ 
+✅ info: 🚀 Server is running LOCALLY on PORT: , 3001    
+ 
+✅ info: 🚀 Connected to DB...    
+ 
+❌ error: Product not found | 🕗 2021-03-16T18:09:41   
+ Error: Product not found
     at new ApiError (/home/orhanors/Desktop/ME/Capstone/backend/src/utils/errors/ApiError.ts:6:3)
-    at /home/orhanors/Desktop/ME/Capstone/backend/src/server.ts:16:9
-    at Layer.handle [as handle_request] (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/layer.js:95:5)
-    at next (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/route.js:137:13)
-    at Route.dispatch (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/route.js:112:3)
-    at Layer.handle [as handle_request] (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/layer.js:95:5)
-    at /home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/index.js:281:22
-    at Function.process_params (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/index.js:335:12)
-    at next (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/index.js:275:10)
-    at expressInit (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/middleware/init.js:40:5)
-    at Layer.handle [as handle_request] (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/layer.js:95:5)
-    at trim_prefix (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/index.js:317:13)
-    at /home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/index.js:284:7
-    at Function.process_params (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/index.js:335:12)
-    at next (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/index.js:275:10)
-    at query (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/middleware/query.js:45:5)
-✅     info: 🚀 Server is running LOCALLY on PORT:  
- 
-✅     info: 🚀 Connected to DB... 
- 
-❌  2021-03-09T12:21:56   error: Internal Server Error 
- Error: Internal Server Error
+    at /home/orhanors/Desktop/ME/Capstone/backend/src/services/product/product.controller.ts:10:22
+    at step (/home/orhanors/Desktop/ME/Capstone/backend/src/services/product/product.controller.ts:44:23)
+    at Object.next (/home/orhanors/Desktop/ME/Capstone/backend/src/services/product/product.controller.ts:25:53)
+    at fulfilled (/home/orhanors/Desktop/ME/Capstone/backend/src/services/product/product.controller.ts:16:58)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+❌ error: Cloudinary delete image error | 🕗 2021-03-16T18:11:11   
+ Error: Cloudinary delete image error
     at new ApiError (/home/orhanors/Desktop/ME/Capstone/backend/src/utils/errors/ApiError.ts:6:3)
-    at /home/orhanors/Desktop/ME/Capstone/backend/src/server.ts:15:8
-    at Layer.handle [as handle_request] (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/layer.js:95:5)
-    at next (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/route.js:137:13)
-    at Route.dispatch (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/route.js:112:3)
-    at Layer.handle [as handle_request] (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/layer.js:95:5)
-    at /home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/index.js:281:22
-    at Function.process_params (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/index.js:335:12)
-    at next (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/index.js:275:10)
-    at expressInit (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/middleware/init.js:40:5)
-    at Layer.handle [as handle_request] (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/layer.js:95:5)
-    at trim_prefix (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/index.js:317:13)
-    at /home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/index.js:284:7
-    at Function.process_params (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/index.js:335:12)
-    at next (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/index.js:275:10)
-    at query (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/middleware/query.js:45:5)
-❌  2021-03-09T12:21:59   error: Internal Server Error 
- Error: Internal Server Error
+    at /home/orhanors/Desktop/ME/Capstone/backend/src/services/product/product.controller.ts:36:9
+    at step (/home/orhanors/Desktop/ME/Capstone/backend/src/services/product/product.controller.ts:44:23)
+    at Object.next (/home/orhanors/Desktop/ME/Capstone/backend/src/services/product/product.controller.ts:25:53)
+    at fulfilled (/home/orhanors/Desktop/ME/Capstone/backend/src/services/product/product.controller.ts:16:58)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+✅ info: Image deleted    
+ 
+✅ info: Image deleted    
+ 
+✅ info: 🚀 Server is running LOCALLY on PORT: , 3001    
+ 
+✅ info: 🚀 Connected to DB...    
+ 
+❌ error: Cloudinary delete image error | 🕗 2021-03-16T18:11:59   
+ Error: Cloudinary delete image error
     at new ApiError (/home/orhanors/Desktop/ME/Capstone/backend/src/utils/errors/ApiError.ts:6:3)
-    at /home/orhanors/Desktop/ME/Capstone/backend/src/server.ts:15:8
-    at Layer.handle [as handle_request] (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/layer.js:95:5)
-    at next (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/route.js:137:13)
-    at Route.dispatch (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/route.js:112:3)
-    at Layer.handle [as handle_request] (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/layer.js:95:5)
-    at /home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/index.js:281:22
-    at Function.process_params (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/index.js:335:12)
-    at next (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/index.js:275:10)
-    at expressInit (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/middleware/init.js:40:5)
-    at Layer.handle [as handle_request] (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/layer.js:95:5)
-    at trim_prefix (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/index.js:317:13)
-    at /home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/index.js:284:7
-    at Function.process_params (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/index.js:335:12)
-    at next (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/index.js:275:10)
-    at query (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/middleware/query.js:45:5)
-❌  2021-03-09T12:22:01   error: Internal Server Error 
- Error: Internal Server Error
+    at /home/orhanors/Desktop/ME/Capstone/backend/src/services/product/product.controller.ts:36:9
+    at step (/home/orhanors/Desktop/ME/Capstone/backend/src/services/product/product.controller.ts:44:23)
+    at Object.next (/home/orhanors/Desktop/ME/Capstone/backend/src/services/product/product.controller.ts:25:53)
+    at fulfilled (/home/orhanors/Desktop/ME/Capstone/backend/src/services/product/product.controller.ts:16:58)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+✅ info: Image deleted    
+ 
+✅ info: Image deleted    
+ 
+✅ info: 🚀 Server is running LOCALLY on PORT: , 3001    
+ 
+✅ info: 🚀 Connected to DB...    
+ 
+❌ error: Cloudinary delete image error | 🕗 2021-03-16T18:13:50   
+ Error: Cloudinary delete image error
     at new ApiError (/home/orhanors/Desktop/ME/Capstone/backend/src/utils/errors/ApiError.ts:6:3)
-    at /home/orhanors/Desktop/ME/Capstone/backend/src/server.ts:15:8
-    at Layer.handle [as handle_request] (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/layer.js:95:5)
-    at next (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/route.js:137:13)
-    at Route.dispatch (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/route.js:112:3)
-    at Layer.handle [as handle_request] (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/layer.js:95:5)
-    at /home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/index.js:281:22
-    at Function.process_params (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/index.js:335:12)
-    at next (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/index.js:275:10)
-    at expressInit (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/middleware/init.js:40:5)
-    at Layer.handle [as handle_request] (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/layer.js:95:5)
-    at trim_prefix (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/index.js:317:13)
-    at /home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/index.js:284:7
-    at Function.process_params (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/index.js:335:12)
-    at next (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/index.js:275:10)
-    at query (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/middleware/query.js:45:5)
-✅     info: 🚀 Server is running LOCALLY on PORT:  
+    at /home/orhanors/Desktop/ME/Capstone/backend/src/services/product/product.controller.ts:36:9
+    at step (/home/orhanors/Desktop/ME/Capstone/backend/src/services/product/product.controller.ts:44:23)
+    at Object.next (/home/orhanors/Desktop/ME/Capstone/backend/src/services/product/product.controller.ts:25:53)
+    at fulfilled (/home/orhanors/Desktop/ME/Capstone/backend/src/services/product/product.controller.ts:16:58)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+✅ info: Image deleted    
  
-✅     info: 🚀 Connected to DB... 
+✅ info: Image deleted    
  
-✅     info: 🚀 Server is running LOCALLY on PORT:  
+✅ info: 🚀 Server is running LOCALLY on PORT: , 3001    
  
-✅     info: 🚀 Connected to DB... 
+✅ info: 🚀 Connected to DB...    
  
-✅     info: 🚀 Server is running LOCALLY on PORT:  
+✅ info: hadDeleted: null    
  
-✅     info: 🚀 Connected to DB... 
- 
-❌  2021-03-09T12:23:01   error: Internal Server Error 
- Error: Internal Server Error
+❌ error: Cloudinary delete image error | 🕗 2021-03-16T18:15:37   
+ Error: Cloudinary delete image error
     at new ApiError (/home/orhanors/Desktop/ME/Capstone/backend/src/utils/errors/ApiError.ts:6:3)
-    at /home/orhanors/Desktop/ME/Capstone/backend/src/server.ts:15:8
-    at Layer.handle [as handle_request] (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/layer.js:95:5)
-    at next (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/route.js:137:13)
-    at Route.dispatch (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/route.js:112:3)
-    at Layer.handle [as handle_request] (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/layer.js:95:5)
-    at /home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/index.js:281:22
-    at Function.process_params (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/index.js:335:12)
-    at next (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/index.js:275:10)
-    at expressInit (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/middleware/init.js:40:5)
-    at Layer.handle [as handle_request] (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/layer.js:95:5)
-    at trim_prefix (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/index.js:317:13)
-    at /home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/index.js:284:7
-    at Function.process_params (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/index.js:335:12)
-    at next (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/index.js:275:10)
-    at query (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/middleware/query.js:45:5)
-✅     info: 🚀 Server is running LOCALLY on PORT:  
+    at /home/orhanors/Desktop/ME/Capstone/backend/src/services/product/product.controller.ts:38:9
+    at step (/home/orhanors/Desktop/ME/Capstone/backend/src/services/product/product.controller.ts:44:23)
+    at Object.next (/home/orhanors/Desktop/ME/Capstone/backend/src/services/product/product.controller.ts:25:53)
+    at fulfilled (/home/orhanors/Desktop/ME/Capstone/backend/src/services/product/product.controller.ts:16:58)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+✅ info: Image deleted    
  
-✅     info: 🚀 Connected to DB... 
+✅ info: Image deleted    
  
-✅     info: 🚀 Server is running LOCALLY on PORT:  
+✅ info: 🚀 Server is running LOCALLY on PORT: , 3001    
  
-✅     info: 🚀 Connected to DB... 
+✅ info: 🚀 Connected to DB...    
  
-❌  2021-03-09T12:25:27   error: Internal Server Error 
- Error: Internal Server Error
+✅ info: hadDeleted: null    
+ 
+❌ error: Cloudinary delete image error | 🕗 2021-03-16T18:17:19   
+ Error: Cloudinary delete image error
     at new ApiError (/home/orhanors/Desktop/ME/Capstone/backend/src/utils/errors/ApiError.ts:6:3)
-    at /home/orhanors/Desktop/ME/Capstone/backend/src/server.ts:15:8
-    at Layer.handle [as handle_request] (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/layer.js:95:5)
-    at next (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/route.js:137:13)
-    at Route.dispatch (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/route.js:112:3)
-    at Layer.handle [as handle_request] (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/layer.js:95:5)
-    at /home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/index.js:281:22
-    at Function.process_params (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/index.js:335:12)
-    at next (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/index.js:275:10)
-    at expressInit (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/middleware/init.js:40:5)
-    at Layer.handle [as handle_request] (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/layer.js:95:5)
-    at trim_prefix (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/index.js:317:13)
-    at /home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/index.js:284:7
-    at Function.process_params (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/index.js:335:12)
-    at next (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/index.js:275:10)
-    at query (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/middleware/query.js:45:5)
-✅     info: 🚀 Server is running LOCALLY on PORT:  
+    at /home/orhanors/Desktop/ME/Capstone/backend/src/services/product/product.controller.ts:38:9
+    at step (/home/orhanors/Desktop/ME/Capstone/backend/src/services/product/product.controller.ts:44:23)
+    at Object.next (/home/orhanors/Desktop/ME/Capstone/backend/src/services/product/product.controller.ts:25:53)
+    at fulfilled (/home/orhanors/Desktop/ME/Capstone/backend/src/services/product/product.controller.ts:16:58)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+✅ info: Image deleted    
  
-✅     info: 🚀 Connected to DB... 
+✅ info: [object Object]    
  
-✅     info: 🚀 Server is running LOCALLY on PORT:  
+✅ info: Image deleted    
  
-✅     info: 🚀 Connected to DB... 
+✅ info: [object Object]    
  
-❌  2021-03-09T12:27:31   error: User 
+✅ info: 🚀 Server is running LOCALLY on PORT: , 3001    
+ 
+✅ info: 🚀 Connected to DB...    
+ 
+✅ info: hadDeleted: null    
+ 
+❌ error: Cloudinary delete image error | 🕗 2021-03-16T18:18:00   
+ Error: Cloudinary delete image error
+    at new ApiError (/home/orhanors/Desktop/ME/Capstone/backend/src/utils/errors/ApiError.ts:6:3)
+    at /home/orhanors/Desktop/ME/Capstone/backend/src/services/product/product.controller.ts:38:9
+    at step (/home/orhanors/Desktop/ME/Capstone/backend/src/services/product/product.controller.ts:44:23)
+    at Object.next (/home/orhanors/Desktop/ME/Capstone/backend/src/services/product/product.controller.ts:25:53)
+    at fulfilled (/home/orhanors/Desktop/ME/Capstone/backend/src/services/product/product.controller.ts:16:58)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+✅ info: Image deleted    
+ 
+✅ info: {"result":"not found"}    
+ 
+✅ info: Image deleted    
+ 
+✅ info: {"result":"not found"}    
+ 
+✅ info: 🚀 Server is running LOCALLY on PORT: , 3001    
+ 
+✅ info: 🚀 Connected to DB...    
+ 
+✅ info: image id is: yjl3oovjca45y2rss317    
+ 
+✅ info: image id is: xayk0cnfywv0sizidydz    
+ 
+✅ info: hadDeleted: null    
+ 
+❌ error: Cloudinary delete image error | 🕗 2021-03-16T18:19:20   
+ Error: Cloudinary delete image error
+    at new ApiError (/home/orhanors/Desktop/ME/Capstone/backend/src/utils/errors/ApiError.ts:6:3)
+    at /home/orhanors/Desktop/ME/Capstone/backend/src/services/product/product.controller.ts:38:9
+    at step (/home/orhanors/Desktop/ME/Capstone/backend/src/services/product/product.controller.ts:44:23)
+    at Object.next (/home/orhanors/Desktop/ME/Capstone/backend/src/services/product/product.controller.ts:25:53)
+    at fulfilled (/home/orhanors/Desktop/ME/Capstone/backend/src/services/product/product.controller.ts:16:58)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+✅ info: Image deleted    
+ 
+✅ info: {"result":"not found"}    
+ 
+✅ info: Image deleted    
+ 
+✅ info: {"result":"not found"}    
+ 
+✅ info: 🚀 Server is running LOCALLY on PORT: , 3001    
+ 
+✅ info: 🚀 Connected to DB...    
+ 
+✅ info: image id is: yjl3oovjca45y2rss317    
+ 
+✅ info: image id is: xayk0cnfywv0sizidydz    
+ 
+✅ info: hadDeleted: null    
+ 
+❌ error: Cloudinary delete image error | 🕗 2021-03-16T18:28:45   
+ Error: Cloudinary delete image error
+    at new ApiError (/home/orhanors/Desktop/ME/Capstone/backend/src/utils/errors/ApiError.ts:6:3)
+    at /home/orhanors/Desktop/ME/Capstone/backend/src/services/product/product.controller.ts:38:9
+    at step (/home/orhanors/Desktop/ME/Capstone/backend/src/services/product/product.controller.ts:44:23)
+    at Object.next (/home/orhanors/Desktop/ME/Capstone/backend/src/services/product/product.controller.ts:25:53)
+    at fulfilled (/home/orhanors/Desktop/ME/Capstone/backend/src/services/product/product.controller.ts:16:58)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+✅ info: Image deleted    
+ 
+✅ info: {"result":"ok"}    
+ 
+✅ info: Image deleted    
+ 
+✅ info: {"result":"ok"}    
+ 
+✅ info: 🚀 Server is running LOCALLY on PORT: , 3001    
+ 
+✅ info: 🚀 Connected to DB...    
+ 
+✅ info: 🚀 Server is running LOCALLY on PORT: , 3001    
+ 
+✅ info: 🚀 Connected to DB...    
+ 
+✅ info: image id is: yjl3oovjca45y2rss317    
+ 
+✅ info: image id is: xayk0cnfywv0sizidydz    
+ 
+✅ info: hadDeleted: null    
+ 
+❌ error: Cloudinary delete image error | 🕗 2021-03-16T18:55:05   
+ Error: Cloudinary delete image error
+    at new ApiError (/home/orhanors/Desktop/ME/Capstone/backend/src/utils/errors/ApiError.ts:6:3)
+    at /home/orhanors/Desktop/ME/Capstone/backend/src/services/product/product.controller.ts:38:9
+    at step (/home/orhanors/Desktop/ME/Capstone/backend/src/services/product/product.controller.ts:44:23)
+    at Object.next (/home/orhanors/Desktop/ME/Capstone/backend/src/services/product/product.controller.ts:25:53)
+    at fulfilled (/home/orhanors/Desktop/ME/Capstone/backend/src/services/product/product.controller.ts:16:58)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+✅ info: 🚀 Server is running LOCALLY on PORT: , 3001    
+ 
+✅ info: 🚀 Connected to DB...    
+ 
+✅ info: 🚀 Server is running LOCALLY on PORT: , 3001    
+ 
+✅ info: 🚀 Connected to DB...    
+ 
+❌ error: Product not found | 🕗 2021-03-16T18:56:24   
+ Error: Product not found
+    at new ApiError (/home/orhanors/Desktop/ME/Capstone/backend/src/utils/errors/ApiError.ts:6:3)
+    at /home/orhanors/Desktop/ME/Capstone/backend/src/services/product/product.controller.ts:11:22
+    at step (/home/orhanors/Desktop/ME/Capstone/backend/src/services/product/product.controller.ts:44:23)
+    at Object.next (/home/orhanors/Desktop/ME/Capstone/backend/src/services/product/product.controller.ts:25:53)
+    at fulfilled (/home/orhanors/Desktop/ME/Capstone/backend/src/services/product/product.controller.ts:16:58)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+❌ error: Product not found | 🕗 2021-03-16T18:56:36   
+ Error: Product not found
+    at new ApiError (/home/orhanors/Desktop/ME/Capstone/backend/src/utils/errors/ApiError.ts:6:3)
+    at /home/orhanors/Desktop/ME/Capstone/backend/src/services/product/product.controller.ts:11:22
+    at step (/home/orhanors/Desktop/ME/Capstone/backend/src/services/product/product.controller.ts:44:23)
+    at Object.next (/home/orhanors/Desktop/ME/Capstone/backend/src/services/product/product.controller.ts:25:53)
+    at fulfilled (/home/orhanors/Desktop/ME/Capstone/backend/src/services/product/product.controller.ts:16:58)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+✅ info: 🚀 Server is running LOCALLY on PORT: , 3001    
+ 
+✅ info: 🚀 Connected to DB...    
+ 
+✅ info: image id is: fycmteayq4j7601d9gn6    
+ 
+✅ info: singleDeleted: false    
+ 
+✅ info: image id is: hwdzmpzdwr5gzj9traot    
+ 
+✅ info: singleDeleted: false    
+ 
+✅ info: allDeleted: false    
+ 
+✅ info: hadDeleted: false    
+ 
+❌ error: Cloudinary delete image error | 🕗 2021-03-16T18:59:03   
+ Error: Cloudinary delete image error
+    at new ApiError (/home/orhanors/Desktop/ME/Capstone/backend/src/utils/errors/ApiError.ts:6:3)
+    at /home/orhanors/Desktop/ME/Capstone/backend/src/services/product/product.controller.ts:38:9
+    at step (/home/orhanors/Desktop/ME/Capstone/backend/src/services/product/product.controller.ts:44:23)
+    at Object.next (/home/orhanors/Desktop/ME/Capstone/backend/src/services/product/product.controller.ts:25:53)
+    at fulfilled (/home/orhanors/Desktop/ME/Capstone/backend/src/services/product/product.controller.ts:16:58)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+✅ info: Image deleted    
+ 
+✅ info: Image deleted    
+ 
+✅ info: 🚀 Server is running LOCALLY on PORT: , 3001    
+ 
+✅ info: 🚀 Connected to DB...    
+ 
+✅ info: image id is: fycmteayq4j7601d9gn6    
+ 
+✅ info: singleDeleted: [object Promise]    
+ 
+✅ info: image id is: hwdzmpzdwr5gzj9traot    
+ 
+✅ info: singleDeleted: [object Promise]    
+ 
+✅ info: image id is: aqnmwiezwdjohoo7ne4y    
+ 
+✅ info: singleDeleted: [object Promise]    
+ 
+✅ info: image id is: g3thnq0htne4oesboxur    
+ 
+✅ info: singleDeleted: [object Promise]    
+ 
+✅ info: allDeleted: true    
+ 
+❌ error: Product not found | 🕗 2021-03-16T19:03:20   
+ Error: Product not found
+    at new ApiError (/home/orhanors/Desktop/ME/Capstone/backend/src/utils/errors/ApiError.ts:6:3)
+    at /home/orhanors/Desktop/ME/Capstone/backend/src/services/product/product.controller.ts:11:22
+    at step (/home/orhanors/Desktop/ME/Capstone/backend/src/services/product/product.controller.ts:44:23)
+    at Object.next (/home/orhanors/Desktop/ME/Capstone/backend/src/services/product/product.controller.ts:25:53)
+    at fulfilled (/home/orhanors/Desktop/ME/Capstone/backend/src/services/product/product.controller.ts:16:58)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+✅ info: 🚀 Server is running LOCALLY on PORT: , 3001    
+ 
+✅ info: 🚀 Connected to DB...    
+ 
+✅ info: image id is: qsdun1scft7dunqa0hz3    
+ 
+✅ info: singleDeleted: {}    
+ 
+✅ info: image id is: tpmrofls0bexxcn6hrp9    
+ 
+✅ info: singleDeleted: {}    
+ 
+✅ info: allDeleted: true    
+ 
+✅ info: 🚀 Server is running LOCALLY on PORT: , 3001    
+ 
+✅ info: 🚀 Connected to DB...    
+ 
+❌ error: Product not found | 🕗 2021-03-16T19:07:52   
+ Error: Product not found
+    at new ApiError (/home/orhanors/Desktop/ME/Capstone/backend/src/utils/errors/ApiError.ts:6:3)
+    at /home/orhanors/Desktop/ME/Capstone/backend/src/services/product/product.controller.ts:11:22
+    at step (/home/orhanors/Desktop/ME/Capstone/backend/src/services/product/product.controller.ts:44:23)
+    at Object.next (/home/orhanors/Desktop/ME/Capstone/backend/src/services/product/product.controller.ts:25:53)
+    at fulfilled (/home/orhanors/Desktop/ME/Capstone/backend/src/services/product/product.controller.ts:16:58)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+✅ info: image id is: k7b4vv5urwtzomm3njjm    
+ 
+✅ info: singleDeleted: {}    
+ 
+✅ info: image id is: z8xpg3vdw3ecp7gcfakn    
+ 
+✅ info: singleDeleted: {}    
+ 
+✅ info: allDeleted: true    
+ 
+✅ info: 🚀 Server is running LOCALLY on PORT: , 3001    
+ 
+✅ info: 🚀 Connected to DB...    
+ 
+✅ info: 🚀 Server is running LOCALLY on PORT: , 3001    
+ 
+✅ info: 🚀 Connected to DB...    
+ 
+✅ info: image id is: ngjadohe8ne8xflel8ah    
+ 
+✅ info: singleDeleted: false    
+ 
+✅ info: image id is: biznibuetmdq02tdrrzo    
+ 
+✅ info: singleDeleted: false    
+ 
+✅ info: allDeleted: false    
+ 
+✅ info: hadDeleted: false    
+ 
+❌ error: Cloudinary delete image error | 🕗 2021-03-16T19:13:26   
+ Error: Cloudinary delete image error
+    at new ApiError (/home/orhanors/Desktop/ME/Capstone/backend/src/utils/errors/ApiError.ts:6:3)
+    at /home/orhanors/Desktop/ME/Capstone/backend/src/services/product/product.controller.ts:38:9
+    at step (/home/orhanors/Desktop/ME/Capstone/backend/src/services/product/product.controller.ts:44:23)
+    at Object.next (/home/orhanors/Desktop/ME/Capstone/backend/src/services/product/product.controller.ts:25:53)
+    at fulfilled (/home/orhanors/Desktop/ME/Capstone/backend/src/services/product/product.controller.ts:16:58)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+✅ info: 🚀 Server is running LOCALLY on PORT: , 3001    
+ 
+✅ info: 🚀 Connected to DB...    
+ 
+✅ info: 🚀 Server is running LOCALLY on PORT: , 3001    
+ 
+✅ info: 🚀 Connected to DB...    
+ 
+✅ info: image id is: b0jcyj7ojmicpk6utazx    
+ 
+✅ info: image id is: bi9bwtwrzt2rtfjefc0i    
+ 
+✅ info: image id is: ixxh0orw26stoysqat6l    
+ 
+✅ info: image id is: y4avyf11t9rznmg3vpus    
+ 
+❌ error: Cannot read property 'images' of null | 🕗 2021-03-16T19:30:09   
+ TypeError: Cannot read property 'images' of null
+    at /home/orhanors/Desktop/ME/Capstone/backend/src/utils/products/deleteImages.ts:28:13
+    at step (/home/orhanors/Desktop/ME/Capstone/backend/src/utils/products/deleteImages.ts:33:23)
+    at Object.next (/home/orhanors/Desktop/ME/Capstone/backend/src/utils/products/deleteImages.ts:14:53)
+    at /home/orhanors/Desktop/ME/Capstone/backend/src/utils/products/deleteImages.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (/home/orhanors/Desktop/ME/Capstone/backend/src/utils/products/deleteImages.ts:4:12)
+    at Object.deleteProductImages (/home/orhanors/Desktop/ME/Capstone/backend/src/utils/products/deleteImages.ts:24:26)
+    at /home/orhanors/Desktop/ME/Capstone/backend/src/services/product/product.controller.ts:32:33
+    at step (/home/orhanors/Desktop/ME/Capstone/backend/src/services/product/product.controller.ts:44:23)
+    at Object.next (/home/orhanors/Desktop/ME/Capstone/backend/src/services/product/product.controller.ts:25:53)
+    at fulfilled (/home/orhanors/Desktop/ME/Capstone/backend/src/services/product/product.controller.ts:16:58)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+❌ error: Product not found | 🕗 2021-03-16T19:30:09   
+ Error: Product not found
+    at new ApiError (/home/orhanors/Desktop/ME/Capstone/backend/src/utils/errors/ApiError.ts:6:3)
+    at /home/orhanors/Desktop/ME/Capstone/backend/src/services/product/product.controller.ts:34:22
+    at step (/home/orhanors/Desktop/ME/Capstone/backend/src/services/product/product.controller.ts:44:23)
+    at Object.next (/home/orhanors/Desktop/ME/Capstone/backend/src/services/product/product.controller.ts:25:53)
+    at fulfilled (/home/orhanors/Desktop/ME/Capstone/backend/src/services/product/product.controller.ts:16:58)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+✅ info: 🚀 Server is running LOCALLY on PORT: , 3001    
+ 
+✅ info: 🚀 Connected to DB...    
+ 
+✅ info: 🚀 Server is running LOCALLY on PORT: , 3001    
+ 
+✅ info: 🚀 Connected to DB...    
+ 
+✅ info: 🚀 Server is running LOCALLY on PORT: , 3001    
+ 
+✅ info: 🚀 Connected to DB...    
+ 
+✅ info: image id is: gygjlzwgy3yuawsuazox    
+ 
+✅ info: image id is: xlax8aavq4apfbssxouc    
+ 
+✅ info: image id is: ze9oqaol38sjlgiz6z3g    
+ 
+✅ info: image id is: siguifmsag3t97rnht7d    
+ 
+✅ info: 🚀 Server is running LOCALLY on PORT: , 3001    
+ 
+✅ info: 🚀 Connected to DB...    
+ 
+✅ info: 🚀 Server is running LOCALLY on PORT: , 3001    
+ 
+✅ info: 🚀 Connected to DB...    
+ 
+✅ info: image id is: fxwms5cpz7yhye0dujrk    
+ 
+✅ info: image id is: blmr6p2lndzd4y3r2bro    
+ 
+✅ info: 🚀 Server is running LOCALLY on PORT: , 3001    
+ 
+✅ info: 🚀 Connected to DB...    
+ 
+✅ info: 🚀 Server is running LOCALLY on PORT: , 3001    
+ 
+✅ info: 🚀 Connected to DB...    
+ 
+✅ info: image id is: w35mlrhfyxjgf6hnfidb    
+ 
+✅ info: image id is: cdihrwcngrigwc7sib5g    
+ 
+✅ info: hadDeleted: false    
+ 
+❌ error: Cloudinary delete image error | 🕗 2021-03-16T19:42:52   
+ Error: Cloudinary delete image error
+    at new ApiError (/home/orhanors/Desktop/ME/Capstone/backend/src/utils/errors/ApiError.ts:6:3)
+    at /home/orhanors/Desktop/ME/Capstone/backend/src/services/product/product.controller.ts:38:9
+    at step (/home/orhanors/Desktop/ME/Capstone/backend/src/services/product/product.controller.ts:44:23)
+    at Object.next (/home/orhanors/Desktop/ME/Capstone/backend/src/services/product/product.controller.ts:25:53)
+    at fulfilled (/home/orhanors/Desktop/ME/Capstone/backend/src/services/product/product.controller.ts:16:58)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+✅ info: 🚀 Server is running LOCALLY on PORT: , 3001    
+ 
+✅ info: 🚀 Connected to DB...    
+ 
+✅ info: 🚀 Server is running LOCALLY on PORT: , 3001    
+ 
+✅ info: 🚀 Connected to DB...    
+ 
+✅ info: 🚀 Server is running LOCALLY on PORT: , 3001    
+ 
+✅ info: 🚀 Connected to DB...    
+ 
+✅ info: image id is: w35mlrhfyxjgf6hnfidb    
+ 
+✅ info: image id is: cdihrwcngrigwc7sib5g    
+ 
+✅ info: hadDeleted: false    
+ 
+❌ error: Cloudinary delete image error | 🕗 2021-03-16T19:47:37   
+ Error: Cloudinary delete image error
+    at new ApiError (/home/orhanors/Desktop/ME/Capstone/backend/src/utils/errors/ApiError.ts:6:3)
+    at /home/orhanors/Desktop/ME/Capstone/backend/src/services/product/product.controller.ts:38:9
+    at step (/home/orhanors/Desktop/ME/Capstone/backend/src/services/product/product.controller.ts:44:23)
+    at Object.next (/home/orhanors/Desktop/ME/Capstone/backend/src/services/product/product.controller.ts:25:53)
+    at fulfilled (/home/orhanors/Desktop/ME/Capstone/backend/src/services/product/product.controller.ts:16:58)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+✅ info: 🚀 Server is running LOCALLY on PORT: , 3001    
+ 
+✅ info: 🚀 Connected to DB...    
+ 
+✅ info: image id is: w35mlrhfyxjgf6hnfidb    
+ 
+✅ info: image id is: cdihrwcngrigwc7sib5g    
+ 
+✅ info: 🚀 Server is running LOCALLY on PORT: , 3001    
+ 
+✅ info: 🚀 Connected to DB...    
+ 
+✅ info: 🚀 Server is running LOCALLY on PORT: , 3001    
+ 
+✅ info: 🚀 Connected to DB...    
+ 
+✅ info: image id is: xcig8ekpbp32fbtqtvit    
+ 
+✅ info: image id is: vxcujxj9ei5ad5dli5ch    
+ 
+✅ info: 🚀 Server is running LOCALLY on PORT: , 3001    
+ 
+✅ info: 🚀 Connected to DB...    
+ 
+✅ info: 🚀 Server is running LOCALLY on PORT: , 3001    
+ 
+✅ info: 🚀 Connected to DB...    
+ 
+❌ error: false | 🕗 2021-03-16T19:59:26   
  undefined
-✅     info: 🚀 Server is running LOCALLY on PORT:  
+✅ info: hadDeleted: false    
  
-✅     info: 🚀 Connected to DB... 
- 
-❌  2021-03-09T12:27:57   error: User 
- Error: User
+❌ error: Cloudinary delete image error | 🕗 2021-03-16T19:59:26   
+ Error: Cloudinary delete image error
     at new ApiError (/home/orhanors/Desktop/ME/Capstone/backend/src/utils/errors/ApiError.ts:6:3)
-    at /home/orhanors/Desktop/ME/Capstone/backend/src/server.ts:15:8
-    at Layer.handle [as handle_request] (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/layer.js:95:5)
-    at next (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/route.js:137:13)
-    at Route.dispatch (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/route.js:112:3)
-    at Layer.handle [as handle_request] (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/layer.js:95:5)
-    at /home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/index.js:281:22
-    at Function.process_params (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/index.js:335:12)
-    at next (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/index.js:275:10)
-    at expressInit (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/middleware/init.js:40:5)
-    at Layer.handle [as handle_request] (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/layer.js:95:5)
-    at trim_prefix (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/index.js:317:13)
-    at /home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/index.js:284:7
-    at Function.process_params (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/index.js:335:12)
-    at next (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/index.js:275:10)
-    at query (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/middleware/query.js:45:5)
-✅     info: 🚀 Server is running LOCALLY on PORT:  
- 
-✅     info: 🚀 Connected to DB... 
- 
-❌  2021-03-09T12:28:48   error: User Not Found 
- Error: User Not Found
-    at new ApiError (/home/orhanors/Desktop/ME/Capstone/backend/src/utils/errors/ApiError.ts:6:3)
-    at /home/orhanors/Desktop/ME/Capstone/backend/src/server.ts:15:8
-    at Layer.handle [as handle_request] (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/layer.js:95:5)
-    at next (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/route.js:137:13)
-    at Route.dispatch (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/route.js:112:3)
-    at Layer.handle [as handle_request] (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/layer.js:95:5)
-    at /home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/index.js:281:22
-    at Function.process_params (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/index.js:335:12)
-    at next (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/index.js:275:10)
-    at expressInit (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/middleware/init.js:40:5)
-    at Layer.handle [as handle_request] (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/layer.js:95:5)
-    at trim_prefix (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/index.js:317:13)
-    at /home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/index.js:284:7
-    at Function.process_params (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/index.js:335:12)
-    at next (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/index.js:275:10)
-    at query (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/middleware/query.js:45:5)
-✅     info: 🚀 Server is running LOCALLY on PORT:  
- 
-✅     info: 🚀 Connected to DB... 
- 
-❌  2021-03-09T12:29:32   error: User Not Found 
- Error: User Not Found
-    at new ApiError (/home/orhanors/Desktop/ME/Capstone/backend/src/utils/errors/ApiError.ts:6:3)
-    at /home/orhanors/Desktop/ME/Capstone/backend/src/server.ts:15:8
-    at Layer.handle [as handle_request] (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/layer.js:95:5)
-    at next (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/route.js:137:13)
-    at Route.dispatch (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/route.js:112:3)
-    at Layer.handle [as handle_request] (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/layer.js:95:5)
-    at /home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/index.js:281:22
-    at Function.process_params (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/index.js:335:12)
-    at next (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/index.js:275:10)
-    at expressInit (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/middleware/init.js:40:5)
-    at Layer.handle [as handle_request] (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/layer.js:95:5)
-    at trim_prefix (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/index.js:317:13)
-    at /home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/index.js:284:7
-    at Function.process_params (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/index.js:335:12)
-    at next (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/index.js:275:10)
-    at query (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/middleware/query.js:45:5)
-✅     info: 🚀 Server is running LOCALLY on PORT:  
- 
-✅     info: 🚀 Connected to DB... 
- 
-✅ info: 🚀 Server is running LOCALLY on PORT:     
- 
-✅ info: 🚀 Connected to DB...    
- 
-❌ error: User Not Found 2021-03-09T12:32:18   
- Error: User Not Found
-    at new ApiError (/home/orhanors/Desktop/ME/Capstone/backend/src/utils/errors/ApiError.ts:6:3)
-    at /home/orhanors/Desktop/ME/Capstone/backend/src/server.ts:15:8
-    at Layer.handle [as handle_request] (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/layer.js:95:5)
-    at next (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/route.js:137:13)
-    at Route.dispatch (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/route.js:112:3)
-    at Layer.handle [as handle_request] (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/layer.js:95:5)
-    at /home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/index.js:281:22
-    at Function.process_params (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/index.js:335:12)
-    at next (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/index.js:275:10)
-    at expressInit (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/middleware/init.js:40:5)
-    at Layer.handle [as handle_request] (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/layer.js:95:5)
-    at trim_prefix (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/index.js:317:13)
-    at /home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/index.js:284:7
-    at Function.process_params (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/index.js:335:12)
-    at next (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/index.js:275:10)
-    at query (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/middleware/query.js:45:5)
-✅ info: 🚀 Server is running LOCALLY on PORT:     
- 
-✅ info: 🚀 Connected to DB...    
- 
-❌ error: User Not Found 🕗2021-03-09T12:33:38   
- Error: User Not Found
-    at new ApiError (/home/orhanors/Desktop/ME/Capstone/backend/src/utils/errors/ApiError.ts:6:3)
-    at /home/orhanors/Desktop/ME/Capstone/backend/src/server.ts:15:8
-    at Layer.handle [as handle_request] (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/layer.js:95:5)
-    at next (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/route.js:137:13)
-    at Route.dispatch (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/route.js:112:3)
-    at Layer.handle [as handle_request] (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/layer.js:95:5)
-    at /home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/index.js:281:22
-    at Function.process_params (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/index.js:335:12)
-    at next (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/index.js:275:10)
-    at expressInit (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/middleware/init.js:40:5)
-    at Layer.handle [as handle_request] (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/layer.js:95:5)
-    at trim_prefix (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/index.js:317:13)
-    at /home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/index.js:284:7
-    at Function.process_params (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/index.js:335:12)
-    at next (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/index.js:275:10)
-    at query (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/middleware/query.js:45:5)
-✅ info: 🚀 Server is running LOCALLY on PORT:     
- 
-✅ info: 🚀 Connected to DB...    
- 
-❌ error: User Not Found | 🕗 2021-03-09T12:34:01   
- Error: User Not Found
-    at new ApiError (/home/orhanors/Desktop/ME/Capstone/backend/src/utils/errors/ApiError.ts:6:3)
-    at /home/orhanors/Desktop/ME/Capstone/backend/src/server.ts:15:8
-    at Layer.handle [as handle_request] (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/layer.js:95:5)
-    at next (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/route.js:137:13)
-    at Route.dispatch (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/route.js:112:3)
-    at Layer.handle [as handle_request] (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/layer.js:95:5)
-    at /home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/index.js:281:22
-    at Function.process_params (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/index.js:335:12)
-    at next (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/index.js:275:10)
-    at expressInit (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/middleware/init.js:40:5)
-    at Layer.handle [as handle_request] (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/layer.js:95:5)
-    at trim_prefix (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/index.js:317:13)
-    at /home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/index.js:284:7
-    at Function.process_params (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/index.js:335:12)
-    at next (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/index.js:275:10)
-    at query (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/middleware/query.js:45:5)
-✅ info: 🚀 Server is running LOCALLY on PORT:     
- 
-✅ info: 🚀 Connected to DB...    
- 
-✅ info: 🚀 Server is running LOCALLY on PORT:     
- 
-✅ info: 🚀 Connected to DB...    
- 
-❌ error: User Not Found | 🕗 2021-03-09T12:35:33   
- Error: User Not Found
-    at new ApiError (/home/orhanors/Desktop/ME/Capstone/backend/src/utils/errors/ApiError.ts:6:3)
-    at /home/orhanors/Desktop/ME/Capstone/backend/src/server.ts:14:8
-    at Layer.handle [as handle_request] (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/layer.js:95:5)
-    at next (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/route.js:137:13)
-    at Route.dispatch (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/route.js:112:3)
-    at Layer.handle [as handle_request] (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/layer.js:95:5)
-    at /home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/index.js:281:22
-    at Function.process_params (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/index.js:335:12)
-    at next (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/index.js:275:10)
-    at expressInit (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/middleware/init.js:40:5)
-    at Layer.handle [as handle_request] (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/layer.js:95:5)
-    at trim_prefix (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/index.js:317:13)
-    at /home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/index.js:284:7
-    at Function.process_params (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/index.js:335:12)
-    at next (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/index.js:275:10)
-    at query (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/middleware/query.js:45:5)
-❌ error: User Not Found | 🕗 2021-03-09T12:36:00   
- Error: User Not Found
-    at new ApiError (/home/orhanors/Desktop/ME/Capstone/backend/src/utils/errors/ApiError.ts:6:3)
-    at /home/orhanors/Desktop/ME/Capstone/backend/src/server.ts:14:8
-    at Layer.handle [as handle_request] (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/layer.js:95:5)
-    at next (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/route.js:137:13)
-    at Route.dispatch (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/route.js:112:3)
-    at Layer.handle [as handle_request] (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/layer.js:95:5)
-    at /home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/index.js:281:22
-    at Function.process_params (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/index.js:335:12)
-    at next (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/index.js:275:10)
-    at expressInit (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/middleware/init.js:40:5)
-    at Layer.handle [as handle_request] (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/layer.js:95:5)
-    at trim_prefix (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/index.js:317:13)
-    at /home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/index.js:284:7
-    at Function.process_params (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/index.js:335:12)
-    at next (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/index.js:275:10)
-    at query (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/middleware/query.js:45:5)
-✅ info: 🚀 Server is running LOCALLY on PORT:     
- 
-✅ info: 🚀 Connected to DB...    
- 
-✅ info: 🚀 Server is running LOCALLY on PORT:     
- 
-✅ info: 🚀 Server is running LOCALLY on PORT:     
- 
-✅ info: 🚀 Connected to DB...    
- 
-❌ error: User Not Found | 🕗 2021-03-09T12:37:42   
- Error: User Not Found
-    at new ApiError (/home/orhanors/Desktop/ME/Capstone/backend/src/utils/errors/ApiError.ts:6:3)
-    at /home/orhanors/Desktop/ME/Capstone/backend/src/server.ts:14:8
-    at Layer.handle [as handle_request] (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/layer.js:95:5)
-    at next (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/route.js:137:13)
-    at Route.dispatch (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/route.js:112:3)
-    at Layer.handle [as handle_request] (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/layer.js:95:5)
-    at /home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/index.js:281:22
-    at Function.process_params (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/index.js:335:12)
-    at next (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/index.js:275:10)
-    at expressInit (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/middleware/init.js:40:5)
-    at Layer.handle [as handle_request] (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/layer.js:95:5)
-    at trim_prefix (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/index.js:317:13)
-    at /home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/index.js:284:7
-    at Function.process_params (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/index.js:335:12)
-    at next (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/index.js:275:10)
-    at query (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/middleware/query.js:45:5)
-❌ error: User Not Found | 🕗 2021-03-09T12:37:43   
- Error: User Not Found
-    at new ApiError (/home/orhanors/Desktop/ME/Capstone/backend/src/utils/errors/ApiError.ts:6:3)
-    at /home/orhanors/Desktop/ME/Capstone/backend/src/server.ts:14:8
-    at Layer.handle [as handle_request] (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/layer.js:95:5)
-    at next (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/route.js:137:13)
-    at Route.dispatch (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/route.js:112:3)
-    at Layer.handle [as handle_request] (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/layer.js:95:5)
-    at /home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/index.js:281:22
-    at Function.process_params (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/index.js:335:12)
-    at next (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/index.js:275:10)
-    at expressInit (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/middleware/init.js:40:5)
-    at Layer.handle [as handle_request] (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/layer.js:95:5)
-    at trim_prefix (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/index.js:317:13)
-    at /home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/index.js:284:7
-    at Function.process_params (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/index.js:335:12)
-    at next (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/index.js:275:10)
-    at query (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/middleware/query.js:45:5)
-❌ error: User Not Found | 🕗 2021-03-09T12:37:52   
- Error: User Not Found
-    at new ApiError (/home/orhanors/Desktop/ME/Capstone/backend/src/utils/errors/ApiError.ts:6:3)
-    at /home/orhanors/Desktop/ME/Capstone/backend/src/server.ts:14:8
-    at Layer.handle [as handle_request] (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/layer.js:95:5)
-    at next (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/route.js:137:13)
-    at Route.dispatch (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/route.js:112:3)
-    at Layer.handle [as handle_request] (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/layer.js:95:5)
-    at /home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/index.js:281:22
-    at Function.process_params (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/index.js:335:12)
-    at next (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/index.js:275:10)
-    at expressInit (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/middleware/init.js:40:5)
-    at Layer.handle [as handle_request] (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/layer.js:95:5)
-    at trim_prefix (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/index.js:317:13)
-    at /home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/index.js:284:7
-    at Function.process_params (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/index.js:335:12)
-    at next (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/index.js:275:10)
-    at query (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/middleware/query.js:45:5)
-✅ info: 🚀 Server is running LOCALLY on PORT:     
- 
-✅ info: 🚀 Connected to DB...    
- 
-❌ error: User Not Found | 🕗 2021-03-09T12:40:48   
- Error: User Not Found
-    at new ApiError (/home/orhanors/Desktop/ME/Capstone/backend/src/utils/errors/ApiError.ts:6:3)
-    at /home/orhanors/Desktop/ME/Capstone/backend/src/server.ts:14:8
-    at Layer.handle [as handle_request] (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/layer.js:95:5)
-    at next (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/route.js:137:13)
-    at Route.dispatch (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/route.js:112:3)
-    at Layer.handle [as handle_request] (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/layer.js:95:5)
-    at /home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/index.js:281:22
-    at Function.process_params (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/index.js:335:12)
-    at next (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/index.js:275:10)
-    at expressInit (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/middleware/init.js:40:5)
-    at Layer.handle [as handle_request] (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/layer.js:95:5)
-    at trim_prefix (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/index.js:317:13)
-    at /home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/index.js:284:7
-    at Function.process_params (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/index.js:335:12)
-    at next (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/index.js:275:10)
-    at query (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/middleware/query.js:45:5)
-❌ error: User Not Found | 🕗 2021-03-09T12:40:50   
- Error: User Not Found
-    at new ApiError (/home/orhanors/Desktop/ME/Capstone/backend/src/utils/errors/ApiError.ts:6:3)
-    at /home/orhanors/Desktop/ME/Capstone/backend/src/server.ts:14:8
-    at Layer.handle [as handle_request] (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/layer.js:95:5)
-    at next (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/route.js:137:13)
-    at Route.dispatch (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/route.js:112:3)
-    at Layer.handle [as handle_request] (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/layer.js:95:5)
-    at /home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/index.js:281:22
-    at Function.process_params (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/index.js:335:12)
-    at next (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/index.js:275:10)
-    at expressInit (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/middleware/init.js:40:5)
-    at Layer.handle [as handle_request] (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/layer.js:95:5)
-    at trim_prefix (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/index.js:317:13)
-    at /home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/index.js:284:7
-    at Function.process_params (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/index.js:335:12)
-    at next (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/index.js:275:10)
-    at query (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/middleware/query.js:45:5)
-✅ info: 🚀 Server is running LOCALLY on PORT:     
- 
-✅ info: 🚀 Connected to DB...    
- 
-❌ error: User Not Found | 🕗 2021-03-09T12:45:40   
- Error: User Not Found
-    at new ApiError (/home/orhanors/Desktop/ME/Capstone/backend/src/utils/errors/ApiError.ts:6:3)
-    at /home/orhanors/Desktop/ME/Capstone/backend/src/server.ts:14:8
-    at Layer.handle [as handle_request] (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/layer.js:95:5)
-    at next (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/route.js:137:13)
-    at Route.dispatch (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/route.js:112:3)
-    at Layer.handle [as handle_request] (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/layer.js:95:5)
-    at /home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/index.js:281:22
-    at Function.process_params (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/index.js:335:12)
-    at next (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/index.js:275:10)
-    at expressInit (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/middleware/init.js:40:5)
-    at Layer.handle [as handle_request] (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/layer.js:95:5)
-    at trim_prefix (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/index.js:317:13)
-    at /home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/index.js:284:7
-    at Function.process_params (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/index.js:335:12)
-    at next (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/index.js:275:10)
-    at query (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/middleware/query.js:45:5)
-✅ info: 🚀 Server is running LOCALLY on PORT:     
- 
-✅ info: 🚀 Connected to DB...    
- 
-✅ info: 🚀 Server is running LOCALLY on PORT:     
- 
-✅ info: 🚀 Connected to DB...    
- 
-✅ info: 🚀 Server is running LOCALLY on PORT:     
- 
-✅ info: 🚀 Connected to DB...    
- 
-✅ info: 🚀 Server is running LOCALLY on PORT:     
- 
-✅ info: 🚀 Connected to DB...    
- 
-✅ info: 🚀 Server is running LOCALLY on PORT:     
- 
-❌ error: User Not Found | 🕗 2021-03-09T12:52:44   
- Error: User Not Found
-    at new ApiError (/home/orhanors/Desktop/ME/Capstone/backend/src/utils/errors/ApiError.ts:6:3)
-    at /home/orhanors/Desktop/ME/Capstone/backend/src/server.ts:14:8
-    at step (/home/orhanors/Desktop/ME/Capstone/backend/src/server.ts:33:23)
-    at Object.next (/home/orhanors/Desktop/ME/Capstone/backend/src/server.ts:14:53)
-    at /home/orhanors/Desktop/ME/Capstone/backend/src/server.ts:8:71
-    at new Promise (<anonymous>)
-    at __awaiter (/home/orhanors/Desktop/ME/Capstone/backend/src/server.ts:4:12)
-    at /home/orhanors/Desktop/ME/Capstone/backend/src/server.ts:13:33
-    at newFn (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express-async-errors/index.js:16:20)
-    at Layer.handle [as handle_request] (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/layer.js:95:5)
-    at next (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/route.js:137:13)
-    at Route.dispatch (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/route.js:112:3)
-    at newFn (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express-async-errors/index.js:16:20)
-    at Layer.handle [as handle_request] (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/layer.js:95:5)
-    at /home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/index.js:281:22
-    at Function.process_params (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/index.js:335:12)
-✅ info: 🚀 Connected to DB...    
- 
-❌ error: User Not Found | 🕗 2021-03-09T12:52:47   
- Error: User Not Found
-    at new ApiError (/home/orhanors/Desktop/ME/Capstone/backend/src/utils/errors/ApiError.ts:6:3)
-    at /home/orhanors/Desktop/ME/Capstone/backend/src/server.ts:14:8
-    at step (/home/orhanors/Desktop/ME/Capstone/backend/src/server.ts:33:23)
-    at Object.next (/home/orhanors/Desktop/ME/Capstone/backend/src/server.ts:14:53)
-    at /home/orhanors/Desktop/ME/Capstone/backend/src/server.ts:8:71
-    at new Promise (<anonymous>)
-    at __awaiter (/home/orhanors/Desktop/ME/Capstone/backend/src/server.ts:4:12)
-    at /home/orhanors/Desktop/ME/Capstone/backend/src/server.ts:13:33
-    at newFn (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express-async-errors/index.js:16:20)
-    at Layer.handle [as handle_request] (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/layer.js:95:5)
-    at next (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/route.js:137:13)
-    at Route.dispatch (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/route.js:112:3)
-    at newFn (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express-async-errors/index.js:16:20)
-    at Layer.handle [as handle_request] (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/layer.js:95:5)
-    at /home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/index.js:281:22
-    at Function.process_params (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/index.js:335:12)
-✅ info: 🚀 Server is running LOCALLY on PORT:     
- 
-✅ info: 🚀 Connected to DB...    
- 
-✅ info: 🚀 Server is running LOCALLY on PORT:     
- 
-✅ info: 🚀 Connected to DB...    
- 
-✅ info: 🚀 Server is running LOCALLY on PORT:     
- 
-✅ info: 🚀 Connected to DB...    
- 
-✅ info: 🚀 Server is running LOCALLY on PORT:     
- 
-✅ info: 🚀 Connected to DB...    
- 
-✅ info: 🚀 Server is running LOCALLY on PORT:     
- 
-✅ info: 🚀 Connected to DB...    
- 
-✅ info: 🚀 Server is running LOCALLY on PORT:     
- 
-✅ info: 🚀 Connected to DB...    
- 
-✅ info: 🚀 Server is running LOCALLY on PORT:     
- 
-✅ info: 🚀 Server is running LOCALLY on PORT:     
- 
-✅ info: 🚀 Connected to DB...    
- 
-✅ info: 🚀 Server is running LOCALLY on PORT:     
- 
-✅ info: 🚀 Connected to DB...    
- 
-✅ info: 🚀 Server is running LOCALLY on PORT:     
- 
-✅ info: 🚀 Connected to DB...    
- 
-✅ info: 🚀 Server is running LOCALLY on PORT:     
- 
-✅ info: 🚀 Connected to DB...    
- 
-✅ info: 🚀 Server is running LOCALLY on PORT:     
- 
-✅ info: 🚀 Connected to DB...    
- 
-✅ info: 🚀 Server is running LOCALLY on PORT:     
- 
-✅ info: 🚀 Connected to DB...    
- 
-✅ info: 🚀 Server is running LOCALLY on PORT:     
- 
-✅ info: 🚀 Connected to DB...    
- 
-✅ info: 🚀 Server is running LOCALLY on PORT:     
- 
-✅ info: 🚀 Connected to DB...    
- 
-✅ info: 🚀 Server is running LOCALLY on PORT:     
- 
-✅ info: 🚀 Connected to DB...    
- 
-✅ info: 🚀 Server is running LOCALLY on PORT:     
- 
-✅ info: 🚀 Connected to DB...    
- 
-✅ info: 🚀 Server is running LOCALLY on PORT:     
- 
-✅ info: 🚀 Connected to DB...    
- 
-✅ info: 🚀 Server is running LOCALLY on PORT:     
- 
-✅ info: 🚀 Connected to DB...    
- 
-✅ info: 🚀 Server is running LOCALLY on PORT:     
- 
-✅ info: 🚀 Connected to DB...    
- 
-✅ info: 🚀 Server is running LOCALLY on PORT:     
- 
-✅ info: 🚀 Connected to DB...    
- 
-✅ info: 🚀 Server is running LOCALLY on PORT:     
- 
-✅ info: 🚀 Connected to DB...    
- 
-✅ info: 🚀 Server is running LOCALLY on PORT:     
- 
-✅ info: 🚀 Connected to DB...    
- 
-✅ info: 🚀 Server is running LOCALLY on PORT:     
- 
-✅ info: 🚀 Connected to DB...    
- 
-✅ info: 🚀 Server is running LOCALLY on PORT:     
- 
-✅ info: 🚀 Connected to DB...    
- 
-✅ info: 🚀 Server is running LOCALLY on PORT:     
- 
-✅ info: 🚀 Connected to DB...    
- 
-✅ info: 🚀 Server is running LOCALLY on PORT:     
- 
-✅ info: 🚀 Connected to DB...    
- 
-✅ info: 🚀 Server is running LOCALLY on PORT:     
- 
-✅ info: 🚀 Connected to DB...    
- 
-✅ info: 🚀 Server is running LOCALLY on PORT:     
- 
-✅ info: 🚀 Connected to DB...    
- 
-✅ info: 🚀 Server is running LOCALLY on PORT:     
- 
-✅ info: 🚀 Connected to DB...    
- 
-✅ info: 🚀 Server is running LOCALLY on PORT:     
- 
-✅ info: 🚀 Connected to DB...    
- 
-✅ info: 🚀 Server is running LOCALLY on PORT:     
- 
-✅ info: 🚀 Server is running LOCALLY on PORT:     
- 
-✅ info: 🚀 Connected to DB...    
- 
-✅ info: 🚀 Server is running LOCALLY on PORT:     
- 
-✅ info: 🚀 Connected to DB...    
- 
-✅ info: 🚀 Server is running LOCALLY on PORT:     
- 
-✅ info: 🚀 Server is running LOCALLY on PORT:     
- 
-✅ info: 🚀 Connected to DB...    
- 
-✅ info: 🚀 Server is running LOCALLY on PORT:     
- 
-✅ info: 🚀 Connected to DB...    
- 
-✅ info: 🚀 Server is running LOCALLY on PORT:     
- 
-✅ info: 🚀 Connected to DB...    
- 
-✅ info: 🚀 Server is running LOCALLY on PORT:     
- 
-✅ info: 🚀 Connected to DB...    
- 
-✅ info: 🚀 Server is running LOCALLY on PORT:     
- 
-✅ info: 🚀 Server is running LOCALLY on PORT:     
- 
-✅ info: 🚀 Connected to DB...    
- 
-✅ info: 🚀 Server is running LOCALLY on PORT:     
- 
-✅ info: 🚀 Connected to DB...    
- 
-✅ info: 🚀 Server is running LOCALLY on PORT:     
- 
-✅ info: 🚀 Connected to DB...    
- 
-✅ info: 🚀 Server is running LOCALLY on PORT:     
- 
-✅ info: 🚀 Connected to DB...    
- 
-✅ info: 🚀 Server is running LOCALLY on PORT:     
- 
-✅ info: 🚀 Connected to DB...    
- 
-✅ info: 🚀 Server is running LOCALLY on PORT:     
- 
-✅ info: 🚀 Connected to DB...    
- 
-✅ info: 🚀 Server is running LOCALLY on PORT:     
- 
-✅ info: 🚀 Connected to DB...    
- 
-✅ info: 🚀 Server is running LOCALLY on PORT:     
- 
-✅ info: 🚀 Connected to DB...    
- 
-✅ info: 🚀 Server is running LOCALLY on PORT:     
- 
-✅ info: 🚀 Connected to DB...    
- 
-✅ info: 🚀 Server is running LOCALLY on PORT:     
- 
-✅ info: 🚀 Connected to DB...    
- 
-✅ info: 🚀 Server is running LOCALLY on PORT:     
- 
-✅ info: 🚀 Connected to DB...    
- 
-✅ info: 🚀 Server is running LOCALLY on PORT:     
- 
-✅ info: 🚀 Connected to DB...    
- 
-✅ info: 🚀 Server is running LOCALLY on PORT:     
- 
-✅ info: 🚀 Connected to DB...    
- 
-✅ info: 🚀 Server is running LOCALLY on PORT:     
- 
-✅ info: 🚀 Connected to DB...    
- 
-✅ info: 🚀 Server is running LOCALLY on PORT:     
- 
-✅ info: 🚀 Connected to DB...    
- 
-✅ info: 🚀 Server is running LOCALLY on PORT:     
- 
-✅ info: 🚀 Connected to DB...    
- 
-✅ info: 🚀 Server is running LOCALLY on PORT:     
- 
-✅ info: 🚀 Connected to DB...    
- 
-✅ info: 🚀 Server is running LOCALLY on PORT:     
- 
-✅ info: 🚀 Connected to DB...    
- 
-✅ info: 🚀 Server is running LOCALLY on PORT:     
- 
-✅ info: 🚀 Connected to DB...    
- 
-✅ info: 🚀 Server is running LOCALLY on PORT:     
- 
-✅ info: 🚀 Connected to DB...    
- 
-✅ info: 🚀 Server is running LOCALLY on PORT:     
- 
-✅ info: 🚀 Connected to DB...    
- 
-✅ info: 🚀 Server is running LOCALLY on PORT:     
- 
-✅ info: 🚀 Connected to DB...    
- 
-✅ info: 🚀 Server is running LOCALLY on PORT:     
- 
-✅ info: 🚀 Connected to DB...    
- 
-✅ info: 🚀 Server is running LOCALLY on PORT:     
- 
-✅ info: 🚀 Connected to DB...    
- 
-✅ info: 🚀 Server is running LOCALLY on PORT:     
- 
-✅ info: 🚀 Server is running LOCALLY on PORT:     
- 
-✅ info: 🚀 Connected to DB...    
- 
-✅ info: 🚀 Server is running LOCALLY on PORT:     
- 
-✅ info: 🚀 Server is running LOCALLY on PORT:     
- 
-✅ info: 🚀 Connected to DB...    
- 
-✅ info: 🚀 Server is running LOCALLY on PORT:     
- 
-✅ info: 🚀 Connected to DB...    
- 
-✅ info: 🚀 Server is running LOCALLY on PORT:     
- 
-✅ info: 🚀 Connected to DB...    
- 
-✅ info: 🚀 Server is running LOCALLY on PORT:     
- 
-✅ info: 🚀 Connected to DB...    
- 
-✅ info: 🚀 Server is running LOCALLY on PORT:     
- 
-✅ info: 🚀 Connected to DB...    
- 
-✅ info: 🚀 Server is running LOCALLY on PORT:     
- 
-✅ info: 🚀 Connected to DB...    
- 
-✅ info: 🚀 Server is running LOCALLY on PORT:     
- 
-✅ info: 🚀 Connected to DB...    
- 
-✅ info: 🚀 Server is running LOCALLY on PORT:     
- 
-✅ info: 🚀 Connected to DB...    
- 
-✅ info: 🚀 Server is running LOCALLY on PORT:     
- 
-✅ info: 🚀 Connected to DB...    
- 
-✅ info: 🚀 Server is running LOCALLY on PORT:     
- 
-✅ info: 🚀 Connected to DB...    
- 
-✅ info: 🚀 Server is running LOCALLY on PORT:     
- 
-✅ info: 🚀 Connected to DB...    
- 
-✅ info: 🚀 Server is running LOCALLY on PORT:     
- 
-✅ info: 🚀 Connected to DB...    
- 
-✅ info: 🚀 Server is running LOCALLY on PORT:     
- 
-✅ info: 🚀 Connected to DB...    
- 
-✅ info: 🚀 Server is running LOCALLY on PORT:     
- 
-✅ info: 🚀 Connected to DB...    
- 
-✅ info: 🚀 Server is running LOCALLY on PORT:     
- 
-✅ info: 🚀 Connected to DB...    
- 
-✅ info: 🚀 Server is running LOCALLY on PORT:     
- 
-✅ info: 🚀 Connected to DB...    
- 
-✅ info: 🚀 Server is running LOCALLY on PORT:     
- 
-✅ info: 🚀 Connected to DB...    
- 
-✅ info: 🚀 Server is running LOCALLY on PORT:     
- 
-✅ info: 🚀 Connected to DB...    
- 
-✅ info: 🚀 Server is running LOCALLY on PORT:     
- 
-✅ info: 🚀 Connected to DB...    
- 
-✅ info: 🚀 Server is running LOCALLY on PORT:     
- 
-✅ info: 🚀 Connected to DB...    
- 
-✅ info: 🚀 Server is running LOCALLY on PORT:     
- 
-✅ info: 🚀 Server is running LOCALLY on PORT:     
- 
-✅ info: 🚀 Connected to DB...    
- 
-✅ info: 🚀 Server is running LOCALLY on PORT:     
- 
-✅ info: 🚀 Connected to DB...    
- 
-✅ info: 🚀 Server is running LOCALLY on PORT:     
- 
-✅ info: 🚀 Connected to DB...    
- 
-✅ info: 🚀 Server is running LOCALLY on PORT:     
- 
-✅ info: 🚀 Connected to DB...    
- 
-✅ info: 🚀 Server is running LOCALLY on PORT:     
- 
-✅ info: 🚀 Connected to DB...    
- 
-✅ info: 🚀 Server is running LOCALLY on PORT:     
- 
-✅ info: 🚀 Connected to DB...    
- 
-✅ info: 🚀 Server is running LOCALLY on PORT:     
- 
-✅ info: 🚀 Connected to DB...    
- 
-✅ info: 🚀 Server is running LOCALLY on PORT:     
- 
-✅ info: 🚀 Connected to DB...    
- 
-✅ info: 🚀 Server is running LOCALLY on PORT:     
- 
-✅ info: 🚀 Connected to DB...    
- 
-✅ info: 🚀 Server is running LOCALLY on PORT:     
- 
-✅ info: 🚀 Connected to DB...    
- 
-✅ info: 🚀 Server is running LOCALLY on PORT:     
- 
-✅ info: 🚀 Connected to DB...    
- 
-✅ info: 🚀 Server is running LOCALLY on PORT:     
- 
-✅ info: 🚀 Connected to DB...    
- 
-✅ info: 🚀 Server is running LOCALLY on PORT:     
- 
-✅ info: 🚀 Connected to DB...    
- 
-✅ info: 🚀 Server is running LOCALLY on PORT:     
- 
-✅ info: 🚀 Connected to DB...    
- 
-✅ info: 🚀 Server is running LOCALLY on PORT:     
- 
-✅ info: 🚀 Connected to DB...    
- 
-✅ info: 🚀 Server is running LOCALLY on PORT:     
- 
-✅ info: 🚀 Connected to DB...    
- 
-✅ info: 🚀 Server is running LOCALLY on PORT:     
- 
-✅ info: 🚀 Connected to DB...    
- 
-✅ info: 🚀 Server is running LOCALLY on PORT:     
- 
-✅ info: 🚀 Connected to DB...    
- 
-✅ info: 🚀 Server is running LOCALLY on PORT:     
- 
-✅ info: 🚀 Connected to DB...    
- 
-✅ info: 🚀 Server is running LOCALLY on PORT:     
- 
-✅ info: 🚀 Connected to DB...    
- 
-✅ info: 🚀 Server is running LOCALLY on PORT:     
- 
-✅ info: 🚀 Connected to DB...    
- 
-✅ info: 🚀 Server is running LOCALLY on PORT:     
- 
-✅ info: 🚀 Connected to DB...    
- 
-✅ info: 🚀 Server is running LOCALLY on PORT:     
- 
-✅ info: 🚀 Connected to DB...    
- 
-✅ info: 🚀 Server is running LOCALLY on PORT:     
- 
-✅ info: 🚀 Connected to DB...    
- 
-✅ info: 🚀 Server is running LOCALLY on PORT:     
- 
-✅ info: 🚀 Connected to DB...    
- 
-✅ info: 🚀 Server is running LOCALLY on PORT:     
- 
-✅ info: 🚀 Connected to DB...    
- 
-✅ info: 🚀 Server is running LOCALLY on PORT:     
- 
-✅ info: 🚀 Connected to DB...    
- 
-✅ info: 🚀 Server is running LOCALLY on PORT:     
- 
-✅ info: 🚀 Connected to DB...    
- 
-✅ info: 🚀 Server is running LOCALLY on PORT:     
- 
-✅ info: 🚀 Connected to DB...    
- 
-✅ info: New user joined: {
-  role: 'user',
-  image: 'https://upload.wikimedia.org/wikipedia/commons/8/89/Portrait_Placeholder.png',
-  _id: 6047926404633e93e87f83f4,
-  name: 'orhan',
-  surname: 'örs',
-  email: 'orsorhan1234@gmail.com',
-  password: '$2b$10$IN2LSP7zuNKdlTJMAioo.OyW3werVc0AU3mlOVwOZcj/3H5.vR9ym',
-  refreshTokens: [],
-  createdAt: 2021-03-09T15:21:08.736Z,
-  updatedAt: 2021-03-09T15:21:08.736Z,
-  __v: 0
-}    
- 
-✅ info: 🚀 Server is running LOCALLY on PORT:     
- 
-✅ info: 🚀 Connected to DB...    
- 
-✅ info: New user joined: {
-  role: 'user',
-  image: 'https://upload.wikimedia.org/wikipedia/commons/8/89/Portrait_Placeholder.png',
-  _id: 604792a7afaf57943893274d,
-  name: 'orhan',
-  surname: 'örs',
-  email: 'orsorhan12s34@gmail.com',
-  password: '$2b$10$CetBmnn8BLw1N7KKCjOd0u0QKlDrEuzx7GT/4FBQNsNcr2XUOdq1S',
-  refreshTokens: [],
-  createdAt: 2021-03-09T15:22:15.732Z,
-  updatedAt: 2021-03-09T15:22:15.732Z,
-  __v: 0
-}    
- 
-✅ info: New user joined: {
-  role: 'user',
-  image: 'https://upload.wikimedia.org/wikipedia/commons/8/89/Portrait_Placeholder.png',
-  _id: 604792daafaf57943893274e,
-  name: 'orhan',
-  surname: 'örs',
-  email: 'orsorhan12s34@gmail.com',
-  password: '$2b$10$80C8xIoscnh6cpCCFFyinOGsOeLzfoAffvhxm.4Phtj/Mc8Dw3GQK',
-  refreshTokens: [],
-  createdAt: 2021-03-09T15:23:06.217Z,
-  updatedAt: 2021-03-09T15:23:06.217Z,
-  __v: 0
-}    
- 
-✅ info: 🚀 Server is running LOCALLY on PORT:     
- 
-✅ info: 🚀 Connected to DB...    
- 
-✅ info: New user joined: {
-  role: 'user',
-  image: 'https://upload.wikimedia.org/wikipedia/commons/8/89/Portrait_Placeholder.png',
-  _id: 604793b00dea099515be3376,
-  name: 'orhan',
-  surname: 'örs',
-  email: 'orsorhan14@gmail.com',
-  password: '$2b$10$XcykARNMDc0I3b7FY4.AuuvO8QK9n9zinC0jrrzK981gBBTxt.Z4i',
-  refreshTokens: [],
-  createdAt: 2021-03-09T15:26:40.201Z,
-  updatedAt: 2021-03-09T15:26:40.201Z,
-  __v: 0
-}    
- 
-✅ info: 🚀 Server is running LOCALLY on PORT:     
- 
-✅ info: 🚀 Connected to DB...    
- 
-✅ info: New user joined: {
-  role: 'user',
-  image: 'https://upload.wikimedia.org/wikipedia/commons/8/89/Portrait_Placeholder.png',
-  _id: 604793d30d5c0e9545a0fdcb,
-  name: 'orhan',
-  surname: 'örs',
-  email: 'orsorhan14256@gmail.com',
-  password: '$2b$10$bthguRoSG8QfXv2gt6b3S.j4rMTHTPhxCmBkNQ/WAhi3zFbuocH7m',
-  refreshTokens: [],
-  createdAt: 2021-03-09T15:27:15.848Z,
-  updatedAt: 2021-03-09T15:27:15.848Z,
-  __v: 0
-}    
- 
-✅ info: 🚀 Server is running LOCALLY on PORT:     
- 
-✅ info: 🚀 Server is running LOCALLY on PORT:     
- 
-✅ info: 🚀 Connected to DB...    
- 
-✅ info: 🚀 Server is running LOCALLY on PORT:     
- 
-✅ info: 🚀 Server is running LOCALLY on PORT:     
- 
-✅ info: 🚀 Connected to DB...    
- 
-✅ info: 🚀 Server is running LOCALLY on PORT:     
- 
-✅ info: 🚀 Connected to DB...    
- 
-✅ info: 🚀 Server is running LOCALLY on PORT:     
- 
-✅ info: 🚀 Connected to DB...    
- 
-✅ info: 🚀 Server is running LOCALLY on PORT:     
- 
-✅ info: 🚀 Connected to DB...    
- 
-✅ info: 🚀 Server is running LOCALLY on PORT:     
- 
-✅ info: 🚀 Connected to DB...    
- 
-✅ info: 🚀 Server is running LOCALLY on PORT:     
- 
-✅ info: 🚀 Connected to DB...    
- 
-✅ info: 🚀 Server is running LOCALLY on PORT:     
- 
-✅ info: 🚀 Connected to DB...    
- 
-✅ info: 🚀 Server is running LOCALLY on PORT:     
- 
-✅ info: 🚀 Connected to DB...    
- 
-✅ info: 🚀 Server is running LOCALLY on PORT:     
- 
-✅ info: 🚀 Connected to DB...    
- 
-✅ info: 🚀 Server is running LOCALLY on PORT:     
- 
-✅ info: 🚀 Connected to DB...    
- 
-✅ info: 🚀 Server is running LOCALLY on PORT:     
- 
-✅ info: 🚀 Connected to DB...    
- 
-✅ info: 🚀 Server is running LOCALLY on PORT:     
- 
-✅ info: 🚀 Connected to DB...    
- 
-✅ info: 🚀 Server is running LOCALLY on PORT:     
- 
-✅ info: 🚀 Connected to DB...    
- 
-❌ error: Cannot read property 'tokens' of undefined | 🕗 2021-03-09T16:25:05   
- TypeError: Cannot read property 'tokens' of undefined
-    at /home/orhanors/Desktop/ME/Capstone/backend/src/middlewares/auth/tokenHandling.ts:12:44
-    at step (/home/orhanors/Desktop/ME/Capstone/backend/src/middlewares/auth/tokenHandling.ts:33:23)
-    at Object.next (/home/orhanors/Desktop/ME/Capstone/backend/src/middlewares/auth/tokenHandling.ts:14:53)
-    at /home/orhanors/Desktop/ME/Capstone/backend/src/middlewares/auth/tokenHandling.ts:8:71
-    at new Promise (<anonymous>)
-    at __awaiter (/home/orhanors/Desktop/ME/Capstone/backend/src/middlewares/auth/tokenHandling.ts:4:12)
-    at handleTokens (/home/orhanors/Desktop/ME/Capstone/backend/src/middlewares/auth/tokenHandling.ts:8:20)
-    at Layer.handle [as handle_request] (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/layer.js:95:5)
-    at next (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/route.js:137:13)
-    at /home/orhanors/Desktop/ME/Capstone/backend/src/services/auth/auth.controllers.ts:28:3
-    at step (/home/orhanors/Desktop/ME/Capstone/backend/src/services/auth/auth.controllers.ts:44:23)
-    at Object.next (/home/orhanors/Desktop/ME/Capstone/backend/src/services/auth/auth.controllers.ts:25:53)
-    at fulfilled (/home/orhanors/Desktop/ME/Capstone/backend/src/services/auth/auth.controllers.ts:16:58)
-❌ error: Cannot read property 'tokens' of undefined | 🕗 2021-03-09T16:25:05   
- TypeError: Cannot read property 'tokens' of undefined
-    at /home/orhanors/Desktop/ME/Capstone/backend/src/middlewares/auth/tokenHandling.ts:12:44
-    at step (/home/orhanors/Desktop/ME/Capstone/backend/src/middlewares/auth/tokenHandling.ts:33:23)
-    at Object.next (/home/orhanors/Desktop/ME/Capstone/backend/src/middlewares/auth/tokenHandling.ts:14:53)
-    at /home/orhanors/Desktop/ME/Capstone/backend/src/middlewares/auth/tokenHandling.ts:8:71
-    at new Promise (<anonymous>)
-    at __awaiter (/home/orhanors/Desktop/ME/Capstone/backend/src/middlewares/auth/tokenHandling.ts:4:12)
-    at handleTokens (/home/orhanors/Desktop/ME/Capstone/backend/src/middlewares/auth/tokenHandling.ts:8:20)
-    at Layer.handle [as handle_request] (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/layer.js:95:5)
-    at next (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/route.js:137:13)
-    at /home/orhanors/Desktop/ME/Capstone/backend/src/services/auth/auth.controllers.ts:28:3
-    at step (/home/orhanors/Desktop/ME/Capstone/backend/src/services/auth/auth.controllers.ts:44:23)
-    at Object.next (/home/orhanors/Desktop/ME/Capstone/backend/src/services/auth/auth.controllers.ts:25:53)
-    at fulfilled (/home/orhanors/Desktop/ME/Capstone/backend/src/services/auth/auth.controllers.ts:16:58)
-✅ info: 🚀 Server is running LOCALLY on PORT:     
- 
-✅ info: 🚀 Connected to DB...    
- 
-✅ info: 🚀 Server is running LOCALLY on PORT:     
- 
-✅ info: 🚀 Connected to DB...    
- 
-✅ info: 🚀 Server is running LOCALLY on PORT:     
- 
-✅ info: 🚀 Connected to DB...    
- 
-❌ error: Cannot read property 'tokens' of undefined | 🕗 2021-03-09T16:27:45   
- TypeError: Cannot read property 'tokens' of undefined
-    at /home/orhanors/Desktop/ME/Capstone/backend/src/middlewares/auth/tokenHandling.ts:12:44
-    at step (/home/orhanors/Desktop/ME/Capstone/backend/src/middlewares/auth/tokenHandling.ts:33:23)
-    at Object.next (/home/orhanors/Desktop/ME/Capstone/backend/src/middlewares/auth/tokenHandling.ts:14:53)
-    at /home/orhanors/Desktop/ME/Capstone/backend/src/middlewares/auth/tokenHandling.ts:8:71
-    at new Promise (<anonymous>)
-    at __awaiter (/home/orhanors/Desktop/ME/Capstone/backend/src/middlewares/auth/tokenHandling.ts:4:12)
-    at handleTokens (/home/orhanors/Desktop/ME/Capstone/backend/src/middlewares/auth/tokenHandling.ts:8:20)
-    at Layer.handle [as handle_request] (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/layer.js:95:5)
-    at next (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/route.js:137:13)
-    at /home/orhanors/Desktop/ME/Capstone/backend/src/services/auth/auth.controllers.ts:30:3
-    at step (/home/orhanors/Desktop/ME/Capstone/backend/src/services/auth/auth.controllers.ts:44:23)
-    at Object.next (/home/orhanors/Desktop/ME/Capstone/backend/src/services/auth/auth.controllers.ts:25:53)
-    at fulfilled (/home/orhanors/Desktop/ME/Capstone/backend/src/services/auth/auth.controllers.ts:16:58)
+    at /home/orhanors/Desktop/ME/Capstone/backend/src/services/product/product.controller.ts:38:9
+    at step (/home/orhanors/Desktop/ME/Capstone/backend/src/services/product/product.controller.ts:44:23)
+    at Object.next (/home/orhanors/Desktop/ME/Capstone/backend/src/services/product/product.controller.ts:25:53)
+    at fulfilled (/home/orhanors/Desktop/ME/Capstone/backend/src/services/product/product.controller.ts:16:58)
     at processTicksAndRejections (internal/process/task_queues.js:93:5)
-❌ error: Cannot read property 'tokens' of undefined | 🕗 2021-03-09T16:27:46   
- TypeError: Cannot read property 'tokens' of undefined
-    at /home/orhanors/Desktop/ME/Capstone/backend/src/middlewares/auth/tokenHandling.ts:12:44
-    at step (/home/orhanors/Desktop/ME/Capstone/backend/src/middlewares/auth/tokenHandling.ts:33:23)
-    at Object.next (/home/orhanors/Desktop/ME/Capstone/backend/src/middlewares/auth/tokenHandling.ts:14:53)
-    at /home/orhanors/Desktop/ME/Capstone/backend/src/middlewares/auth/tokenHandling.ts:8:71
-    at new Promise (<anonymous>)
-    at __awaiter (/home/orhanors/Desktop/ME/Capstone/backend/src/middlewares/auth/tokenHandling.ts:4:12)
-    at handleTokens (/home/orhanors/Desktop/ME/Capstone/backend/src/middlewares/auth/tokenHandling.ts:8:20)
-    at Layer.handle [as handle_request] (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/layer.js:95:5)
-    at next (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/express/lib/router/route.js:137:13)
-    at /home/orhanors/Desktop/ME/Capstone/backend/src/services/auth/auth.controllers.ts:30:3
-    at step (/home/orhanors/Desktop/ME/Capstone/backend/src/services/auth/auth.controllers.ts:44:23)
-    at Object.next (/home/orhanors/Desktop/ME/Capstone/backend/src/services/auth/auth.controllers.ts:25:53)
-    at fulfilled (/home/orhanors/Desktop/ME/Capstone/backend/src/services/auth/auth.controllers.ts:16:58)
+✅ info: 🚀 Server is running LOCALLY on PORT: , 3001    
+ 
+✅ info: 🚀 Connected to DB...    
+ 
+✅ info: hadDeleted: false    
+ 
+❌ error: Cloudinary delete image error | 🕗 2021-03-16T20:01:04   
+ Error: Cloudinary delete image error
+    at new ApiError (/home/orhanors/Desktop/ME/Capstone/backend/src/utils/errors/ApiError.ts:6:3)
+    at /home/orhanors/Desktop/ME/Capstone/backend/src/services/product/product.controller.ts:38:9
+    at step (/home/orhanors/Desktop/ME/Capstone/backend/src/services/product/product.controller.ts:44:23)
+    at Object.next (/home/orhanors/Desktop/ME/Capstone/backend/src/services/product/product.controller.ts:25:53)
+    at fulfilled (/home/orhanors/Desktop/ME/Capstone/backend/src/services/product/product.controller.ts:16:58)
     at processTicksAndRejections (internal/process/task_queues.js:93:5)
-✅ info: 🚀 Server is running LOCALLY on PORT:     
+✅ info: 🚀 Server is running LOCALLY on PORT: , 3001    
  
 ✅ info: 🚀 Connected to DB...    
  
-✅ info: 🚀 Server is running LOCALLY on PORT:     
+❌ error: false | 🕗 2021-03-16T20:02:35   
+ undefined
+✅ info: hadDeleted: false    
+ 
+❌ error: Cloudinary delete image error | 🕗 2021-03-16T20:02:35   
+ Error: Cloudinary delete image error
+    at new ApiError (/home/orhanors/Desktop/ME/Capstone/backend/src/utils/errors/ApiError.ts:6:3)
+    at /home/orhanors/Desktop/ME/Capstone/backend/src/services/product/product.controller.ts:38:9
+    at step (/home/orhanors/Desktop/ME/Capstone/backend/src/services/product/product.controller.ts:44:23)
+    at Object.next (/home/orhanors/Desktop/ME/Capstone/backend/src/services/product/product.controller.ts:25:53)
+    at fulfilled (/home/orhanors/Desktop/ME/Capstone/backend/src/services/product/product.controller.ts:16:58)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+✅ info: 🚀 Server is running LOCALLY on PORT: , 3001    
  
 ✅ info: 🚀 Connected to DB...    
  
-✅ info: 🚀 Server is running LOCALLY on PORT:     
+✅ info: hadDeleted: false    
+ 
+❌ error: Cloudinary delete image error | 🕗 2021-03-16T20:06:40   
+ Error: Cloudinary delete image error
+    at new ApiError (/home/orhanors/Desktop/ME/Capstone/backend/src/utils/errors/ApiError.ts:6:3)
+    at /home/orhanors/Desktop/ME/Capstone/backend/src/services/product/product.controller.ts:38:9
+    at step (/home/orhanors/Desktop/ME/Capstone/backend/src/services/product/product.controller.ts:44:23)
+    at Object.next (/home/orhanors/Desktop/ME/Capstone/backend/src/services/product/product.controller.ts:25:53)
+    at fulfilled (/home/orhanors/Desktop/ME/Capstone/backend/src/services/product/product.controller.ts:16:58)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+✅ info: 🚀 Server is running LOCALLY on PORT: , 3001    
+ 
+✅ info: 🚀 Server is running LOCALLY on PORT: , 3001    
  
 ✅ info: 🚀 Connected to DB...    
  
-✅ info: 🚀 Server is running LOCALLY on PORT:     
+✅ info: 🚀 Server is running LOCALLY on PORT: , 3001    
  
 ✅ info: 🚀 Connected to DB...    
  
-✅ info: 🚀 Server is running LOCALLY on PORT:     
+✅ info: 🚀 Server is running LOCALLY on PORT: , 3001    
  
 ✅ info: 🚀 Connected to DB...    
  
-✅ info: 🚀 Server is running LOCALLY on PORT:     
+✅ info: 🚀 Server is running LOCALLY on PORT: , 3001    
  
 ✅ info: 🚀 Connected to DB...    
  
-✅ info: 🚀 Server is running LOCALLY on PORT:     
+✅ info: 🚀 Server is running LOCALLY on PORT: , 3001    
  
 ✅ info: 🚀 Connected to DB...    
  
-✅ info: 🚀 Server is running LOCALLY on PORT:     
+✅ info: 🚀 Server is running LOCALLY on PORT: , 3001    
  
 ✅ info: 🚀 Connected to DB...    
  
-✅ info: 🚀 Server is running LOCALLY on PORT:     
+✅ info: 🚀 Server is running LOCALLY on PORT: , 3001    
  
 ✅ info: 🚀 Connected to DB...    
  
-✅ info: 🚀 Server is running LOCALLY on PORT:     
+✅ info: 🚀 Server is running LOCALLY on PORT: , 3001    
  
 ✅ info: 🚀 Connected to DB...    
  
-✅ info: 🚀 Server is running LOCALLY on PORT:     
+✅ info: 🚀 Server is running LOCALLY on PORT: , 3001    
  
 ✅ info: 🚀 Connected to DB...    
  
-✅ info: 🚀 Server is running LOCALLY on PORT:     
+✅ info: 🚀 Server is running LOCALLY on PORT: , 3001    
  
 ✅ info: 🚀 Connected to DB...    
  
-✅ info: 🚀 Server is running LOCALLY on PORT:     
+✅ info: 🚀 Server is running LOCALLY on PORT: , 3001    
  
 ✅ info: 🚀 Connected to DB...    
  
-✅ info: 🚀 Server is running LOCALLY on PORT:     
+✅ info: 🚀 Server is running LOCALLY on PORT: , 3001    
  
 ✅ info: 🚀 Connected to DB...    
  
-✅ info: 🚀 Server is running LOCALLY on PORT:     
+✅ info: 🚀 Server is running LOCALLY on PORT: , 3001    
  
 ✅ info: 🚀 Connected to DB...    
  
-✅ info: 🚀 Server is running LOCALLY on PORT:     
+✅ info: 🚀 Server is running LOCALLY on PORT: , 3001    
  
 ✅ info: 🚀 Connected to DB...    
  
-✅ info: 🚀 Server is running LOCALLY on PORT:     
+✅ info: 🚀 Server is running LOCALLY on PORT: , 3001    
  
 ✅ info: 🚀 Connected to DB...    
  
-✅ info: 🚀 Server is running LOCALLY on PORT:     
+✅ info: 🚀 Server is running LOCALLY on PORT: , 3001    
  
 ✅ info: 🚀 Connected to DB...    
  
-✅ info: 🚀 Server is running LOCALLY on PORT:     
+❌ error: Cannot read property 'images' of null | 🕗 2021-03-16T21:37:15   
+ TypeError: Cannot read property 'images' of null
+    at /home/orhanors/Desktop/ME/Capstone/backend/src/utils/products/deleteImages.ts:24:13
+    at new Promise (<anonymous>)
+    at Object.deleteProductImages (/home/orhanors/Desktop/ME/Capstone/backend/src/utils/products/deleteImages.ts:22:9)
+    at /home/orhanors/Desktop/ME/Capstone/backend/src/services/product/product.controller.ts:39:9
+    at step (/home/orhanors/Desktop/ME/Capstone/backend/src/services/product/product.controller.ts:44:23)
+    at Object.next (/home/orhanors/Desktop/ME/Capstone/backend/src/services/product/product.controller.ts:25:53)
+    at fulfilled (/home/orhanors/Desktop/ME/Capstone/backend/src/services/product/product.controller.ts:16:58)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+✅ info: 🚀 Server is running LOCALLY on PORT: , 3001    
  
 ✅ info: 🚀 Connected to DB...    
  
-✅ info: 🚀 Server is running LOCALLY on PORT:     
+✅ info: 🚀 Server is running LOCALLY on PORT: , 3001    
  
 ✅ info: 🚀 Connected to DB...    
  
-✅ info: 🚀 Server is running LOCALLY on PORT:     
+✅ info: 🚀 Server is running LOCALLY on PORT: , 3001    
  
 ✅ info: 🚀 Connected to DB...    
  
-✅ info: 🚀 Server is running LOCALLY on PORT:     
+✅ info: 🚀 Server is running LOCALLY on PORT: , 3001    
  
 ✅ info: 🚀 Connected to DB...    
  
-✅ info: 🚀 Server is running LOCALLY on PORT:     
+❌ error: Product not found | 🕗 2021-03-16T21:41:49   
+ Error: Product not found
+    at new ApiError (/home/orhanors/Desktop/ME/Capstone/backend/src/utils/errors/ApiError.ts:6:3)
+    at /home/orhanors/Desktop/ME/Capstone/backend/src/services/product/product.controller.ts:55:29
+    at step (/home/orhanors/Desktop/ME/Capstone/backend/src/services/product/product.controller.ts:44:23)
+    at Object.next (/home/orhanors/Desktop/ME/Capstone/backend/src/services/product/product.controller.ts:25:53)
+    at fulfilled (/home/orhanors/Desktop/ME/Capstone/backend/src/services/product/product.controller.ts:16:58)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+✅ info: 🚀 Server is running LOCALLY on PORT: , 3001    
  
 ✅ info: 🚀 Connected to DB...    
  
-✅ info: 🚀 Server is running LOCALLY on PORT:     
+✅ info: 🚀 Server is running LOCALLY on PORT: , 3001    
  
 ✅ info: 🚀 Connected to DB...    
  
-✅ info: 🚀 Server is running LOCALLY on PORT:     
+✅ info: 🚀 Server is running LOCALLY on PORT: , 3001    
  
 ✅ info: 🚀 Connected to DB...    
  
-✅ info: 🚀 Server is running LOCALLY on PORT:     
+✅ info: New product updated: function (req, res) { return __awaiter(void 0, void 0, void 0, function () {
+    var productId, updatedProduct;
+    return __generator(this, function (_a) {
+        switch (_a.label) {
+            case 0:
+                productId = req.params.productId;
+                return [4 /*yield*/, _1.Product.findByIdAndUpdate(productId, { $set: __assign({}, req.body) }, { new: true })];
+            case 1:
+                updatedProduct = _a.sent();
+                winston_1.logger.info("New product updated: " + exports.updateProduct);
+                if (!updatedProduct)
+                    throw new ApiError_1.default(404, "Product not found");
+                res.status(200).send("Ok");
+                return [2 /*return*/];
+        }
+    });
+}); }    
+ 
+✅ info: 🚀 Server is running LOCALLY on PORT: , 3001    
  
 ✅ info: 🚀 Connected to DB...    
  
-✅ info: 🚀 Server is running LOCALLY on PORT:     
+✅ info: 🚀 Server is running LOCALLY on PORT: , 3001    
  
 ✅ info: 🚀 Connected to DB...    
  
-✅ info: 🚀 Server is running LOCALLY on PORT:     
- 
-✅ info: 🚀 Server is running LOCALLY on PORT:     
+✅ info: 🚀 Server is running LOCALLY on PORT: , 3001    
  
 ✅ info: 🚀 Connected to DB...    
  
-✅ info: 🚀 Server is running LOCALLY on PORT:     
- 
-✅ info: 🚀 Connected to DB...    
- 
-❌ error: Malformed auth code. | 🕗 2021-03-09T17:24:56   
- TokenError: Malformed auth code.
-    at Strategy.OAuth2Strategy.parseErrorResponse (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/passport-oauth2/lib/strategy.js:358:12)
-    at Strategy.OAuth2Strategy._createOAuthError (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/passport-oauth2/lib/strategy.js:405:16)
-    at /home/orhanors/Desktop/ME/Capstone/backend/node_modules/passport-oauth2/lib/strategy.js:175:45
-    at /home/orhanors/Desktop/ME/Capstone/backend/node_modules/oauth/lib/oauth2.js:191:18
-    at passBackControl (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/oauth/lib/oauth2.js:132:9)
-    at IncomingMessage.<anonymous> (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/oauth/lib/oauth2.js:157:7)
+❌ error: Not found | 🕗 2021-03-16T21:47:18   
+ Error: Not found
+    at /home/orhanors/Desktop/ME/Capstone/backend/src/utils/products/deleteImages.ts:22:12
+    at /home/orhanors/Desktop/ME/Capstone/backend/node_modules/cloudinary/lib/utils/index.js:1162:12
+    at IncomingMessage.<anonymous> (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/cloudinary/lib/uploader.js:427:9)
     at IncomingMessage.emit (events.js:326:22)
     at IncomingMessage.EventEmitter.emit (domain.js:486:12)
     at endReadableNT (_stream_readable.js:1252:12)
     at processTicksAndRejections (internal/process/task_queues.js:80:21)
-✅ info: 🚀 Server is running LOCALLY on PORT:     
+✅ info: 🚀 Server is running LOCALLY on PORT: , 3001    
  
 ✅ info: 🚀 Connected to DB...    
  
-✅ info: 🚀 Server is running LOCALLY on PORT:     
+❌ error: Images not found | 🕗 2021-03-16T21:48:08   
+ Error: Images not found
+    at new ApiError (/home/orhanors/Desktop/ME/Capstone/backend/src/utils/errors/ApiError.ts:6:3)
+    at /home/orhanors/Desktop/ME/Capstone/backend/src/utils/products/deleteImages.ts:23:12
+    at /home/orhanors/Desktop/ME/Capstone/backend/node_modules/cloudinary/lib/utils/index.js:1162:12
+    at IncomingMessage.<anonymous> (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/cloudinary/lib/uploader.js:427:9)
+    at IncomingMessage.emit (events.js:326:22)
+    at IncomingMessage.EventEmitter.emit (domain.js:486:12)
+    at endReadableNT (_stream_readable.js:1252:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21)
+❌ error: Images not found | 🕗 2021-03-16T21:48:33   
+ Error: Images not found
+    at new ApiError (/home/orhanors/Desktop/ME/Capstone/backend/src/utils/errors/ApiError.ts:6:3)
+    at /home/orhanors/Desktop/ME/Capstone/backend/src/utils/products/deleteImages.ts:23:12
+    at /home/orhanors/Desktop/ME/Capstone/backend/node_modules/cloudinary/lib/utils/index.js:1162:12
+    at IncomingMessage.<anonymous> (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/cloudinary/lib/uploader.js:427:9)
+    at IncomingMessage.emit (events.js:326:22)
+    at IncomingMessage.EventEmitter.emit (domain.js:486:12)
+    at endReadableNT (_stream_readable.js:1252:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21)
+✅ info: 🚀 Server is running LOCALLY on PORT: , 3001    
  
 ✅ info: 🚀 Connected to DB...    
  
-✅ info: 🚀 Server is running LOCALLY on PORT:     
+✅ info: 🚀 Server is running LOCALLY on PORT: , 3001    
  
 ✅ info: 🚀 Connected to DB...    
  
-✅ info: 🚀 Server is running LOCALLY on PORT:     
+✅ info: 🚀 Server is running LOCALLY on PORT: , 3001    
  
 ✅ info: 🚀 Connected to DB...    
  
-✅ info: 🚀 Server is running LOCALLY on PORT:     
+✅ info: 🚀 Server is running LOCALLY on PORT: , 3001    
  
 ✅ info: 🚀 Connected to DB...    
  
-✅ info: 🚀 Server is running LOCALLY on PORT:     
+✅ info: 🚀 Server is running LOCALLY on PORT: , 3001    
  
 ✅ info: 🚀 Connected to DB...    
  
-✅ info: 🚀 Server is running LOCALLY on PORT:     
+✅ info: 🚀 Server is running LOCALLY on PORT: , 3001    
  
 ✅ info: 🚀 Connected to DB...    
  
-✅ info: 🚀 Server is running LOCALLY on PORT:     
- 
-✅ info: 🚀 Server is running LOCALLY on PORT:     
- 
-✅ info: 🚀 Connected to DB...    
- 
-✅ info: 🚀 Server is running LOCALLY on PORT:     
- 
-✅ info: 🚀 Connected to DB...    
- 
-✅ info: 🚀 Server is running LOCALLY on PORT:     
- 
-✅ info: 🚀 Connected to DB...    
- 
-✅ info: 🚀 Server is running LOCALLY on PORT:     
+❌ error: Cannot read property 'images' of null | 🕗 2021-03-16T22:00:41   
+ TypeError: Cannot read property 'images' of null
+    at /home/orhanors/Desktop/ME/Capstone/backend/src/utils/products/deleteImages.ts:36:13
+    at new Promise (<anonymous>)
+    at Object.deleteProductImages (/home/orhanors/Desktop/ME/Capstone/backend/src/utils/products/deleteImages.ts:34:9)
+    at /home/orhanors/Desktop/ME/Capstone/backend/src/services/product/product.controller.ts:42:9
+    at step (/home/orhanors/Desktop/ME/Capstone/backend/src/services/product/product.controller.ts:44:23)
+    at Object.next (/home/orhanors/Desktop/ME/Capstone/backend/src/services/product/product.controller.ts:25:53)
+    at fulfilled (/home/orhanors/Desktop/ME/Capstone/backend/src/services/product/product.controller.ts:16:58)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+✅ info: 🚀 Server is running LOCALLY on PORT: , 3001    
  
 ✅ info: 🚀 Connected to DB...    
  
-✅ info: 🚀 Server is running LOCALLY on PORT:     
+❌ error: Cannot read property 'images' of null | 🕗 2021-03-16T22:01:52   
+ TypeError: Cannot read property 'images' of null
+    at /home/orhanors/Desktop/ME/Capstone/backend/src/utils/products/deleteImages.ts:36:13
+    at new Promise (<anonymous>)
+    at Object.deleteProductImages (/home/orhanors/Desktop/ME/Capstone/backend/src/utils/products/deleteImages.ts:34:9)
+    at /home/orhanors/Desktop/ME/Capstone/backend/src/services/product/product.controller.ts:43:9
+    at step (/home/orhanors/Desktop/ME/Capstone/backend/src/services/product/product.controller.ts:44:23)
+    at Object.next (/home/orhanors/Desktop/ME/Capstone/backend/src/services/product/product.controller.ts:25:53)
+    at fulfilled (/home/orhanors/Desktop/ME/Capstone/backend/src/services/product/product.controller.ts:16:58)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+✅ info: 🚀 Server is running LOCALLY on PORT: , 3001    
  
 ✅ info: 🚀 Connected to DB...    
  
-✅ info: 🚀 Server is running LOCALLY on PORT:     
+✅ info: 🚀 Server is running LOCALLY on PORT: , 3001    
  
 ✅ info: 🚀 Connected to DB...    
  
-✅ info: 🚀 Server is running LOCALLY on PORT:     
+❌ error: Product not found | 🕗 2021-03-16T22:02:50   
+ Error: Product not found
+    at new ApiError (/home/orhanors/Desktop/ME/Capstone/backend/src/utils/errors/ApiError.ts:6:3)
+    at /home/orhanors/Desktop/ME/Capstone/backend/src/services/product/product.controller.ts:14:22
+    at step (/home/orhanors/Desktop/ME/Capstone/backend/src/services/product/product.controller.ts:44:23)
+    at Object.next (/home/orhanors/Desktop/ME/Capstone/backend/src/services/product/product.controller.ts:25:53)
+    at fulfilled (/home/orhanors/Desktop/ME/Capstone/backend/src/services/product/product.controller.ts:16:58)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+✅ info: 🚀 Server is running LOCALLY on PORT: , 3001    
  
 ✅ info: 🚀 Connected to DB...    
  
-✅ info: 🚀 Server is running LOCALLY on PORT:     
+✅ info: 🚀 Server is running LOCALLY on PORT: , 3001    
  
 ✅ info: 🚀 Connected to DB...    
  
-✅ info: 🚀 Server is running LOCALLY on PORT:     
+✅ info: 🚀 Server is running LOCALLY on PORT: , 3001    
  
 ✅ info: 🚀 Connected to DB...    
  
-✅ info: 🚀 Server is running LOCALLY on PORT:     
+❌ error: Images not found | 🕗 2021-03-16T22:07:47   
+ Error: Images not found
+    at new ApiError (/home/orhanors/Desktop/ME/Capstone/backend/src/utils/errors/ApiError.ts:6:3)
+    at /home/orhanors/Desktop/ME/Capstone/backend/src/utils/products/deleteImages.ts:23:12
+    at /home/orhanors/Desktop/ME/Capstone/backend/node_modules/cloudinary/lib/utils/index.js:1162:12
+    at IncomingMessage.<anonymous> (/home/orhanors/Desktop/ME/Capstone/backend/node_modules/cloudinary/lib/uploader.js:427:9)
+    at IncomingMessage.emit (events.js:326:22)
+    at IncomingMessage.EventEmitter.emit (domain.js:486:12)
+    at endReadableNT (_stream_readable.js:1252:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21)
+✅ info: 🚀 Server is running LOCALLY on PORT: , 3001    
  
 ✅ info: 🚀 Connected to DB...    
  
-✅ info: 🚀 Server is running LOCALLY on PORT:     
+✅ info: 🚀 Server is running LOCALLY on PORT: , 3001    
  
 ✅ info: 🚀 Connected to DB...    
  
-✅ info: 🚀 Server is running LOCALLY on PORT:     
+✅ info: 🚀 Server is running LOCALLY on PORT: , 3001    
  
 ✅ info: 🚀 Connected to DB...    
  
-✅ info: 🚀 Server is running LOCALLY on PORT:     
- 
-✅ info: 🚀 Connected to DB...    
- 
-✅ info: 🚀 Server is running LOCALLY on PORT:     
- 
-✅ info: 🚀 Connected to DB...    
- 
-✅ info: 🚀 Server is running LOCALLY on PORT:     
+✅ info: 🚀 Server is running LOCALLY on PORT: , 3001    
  
 ✅ info: 🚀 Connected to DB...    
  
