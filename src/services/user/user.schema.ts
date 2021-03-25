@@ -1,5 +1,5 @@
 import { model, Schema, Model } from "mongoose";
-import { userRoles, userPlaceholderImg } from "../../settings/constants";
+import { USER_ROLES, USER_DEFAULT_AVATAR } from "../../settings/constants";
 import { logger } from "../../utils/logger/winston";
 import { IUser, IUserModel } from "./user.types";
 const bcrypt = require("bcrypt");
@@ -12,16 +12,18 @@ const UserSchema: Schema = new Schema(
 		password: { type: String },
 		role: {
 			type: String,
-			enum: [userRoles.admin, userRoles.seller, userRoles.user],
-			default: userRoles.user,
+			enum: [USER_ROLES.admin, USER_ROLES.seller, USER_ROLES.user],
+			default: USER_ROLES.user,
 		},
 		facebookId: { type: String },
 		googleId: { type: String },
 		refreshTokens: [{ token: String }],
 		image: {
 			type: String,
-			default: userPlaceholderImg,
+			default: USER_DEFAULT_AVATAR,
 		},
+
+		cart: { type: Schema.Types.ObjectId, ref: "Cart" },
 	},
 	{ timestamps: true }
 );
@@ -41,10 +43,11 @@ UserSchema.pre<IUser>("save", async function (next) {
 UserSchema.statics.findByCredentials = async function (
 	email: string,
 	password: string
-) {
+): Promise<null | any> {
 	const user: any = await this.findOne({ email });
 
 	if (user) {
+		if (!user.password) return null; //if user logs in with oauth
 		const isMatch = await bcrypt.compare(password, user.password);
 		if (isMatch) return user;
 		else return null;
@@ -59,6 +62,7 @@ UserSchema.methods.toJSON = function () {
 	delete userObject.__v;
 	delete userObject.googleId;
 	delete userObject.facebookId;
+	delete userObject.refreshTokens;
 	return userObject;
 };
 const User: IUserModel = model<IUser, IUserModel>("User", UserSchema);

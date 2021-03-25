@@ -1,5 +1,6 @@
 import { Model, model, Schema } from "mongoose";
 import { IProduct } from "./product.types.d";
+import { PRODUCT_CATEGORIES, PRODUCT_TYPES } from "../../settings/constants";
 
 const ProductSchema: Schema = new Schema(
 	{
@@ -7,7 +8,19 @@ const ProductSchema: Schema = new Schema(
 		description: { type: String },
 		price: { type: Number },
 		brand: { type: String },
+		quantity: { type: Number },
+		category: {
+			type: String,
+			enum: [...PRODUCT_CATEGORIES],
+			default: PRODUCT_CATEGORIES[0],
+		},
+		type: {
+			type: String,
+			enum: [...PRODUCT_TYPES],
+			default: PRODUCT_TYPES[0],
+		},
 		images: [{ url: String, id: String }],
+		seller: { type: Schema.Types.ObjectId, ref: "User" },
 	},
 	{ timestamps: true }
 );

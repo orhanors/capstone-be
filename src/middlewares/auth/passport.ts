@@ -1,4 +1,5 @@
 import passport from "passport";
+import { Cart } from "../../services/cart";
 import { UserModel } from "../../services/user";
 import { generateTokens } from "../../utils/auth/jwt";
 import {
@@ -40,6 +41,7 @@ passport.use(
 				}
 
 				const newUser = new UserModel(generateUserFromGoogle(profile));
+				await Cart.generateNewCart(newUser._id);
 				await newUser.save();
 				const tokens = await generateTokens(newUser);
 				done(null, { user: newUser, tokens });
@@ -79,6 +81,7 @@ passport.use(
 				const newUser = new UserModel(
 					generateUserFromFacebook(profile)
 				);
+				await Cart.generateNewCart(newUser._id);
 				await newUser.save();
 				const tokens = await generateTokens(newUser);
 				done(null, { user: newUser, tokens });

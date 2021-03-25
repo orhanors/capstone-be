@@ -1,4 +1,4 @@
-import { Document } from "mongoose";
+import { Document, ObjectId } from "mongoose";
 
 export interface IProduct extends Document {
 	name: string;
@@ -6,6 +6,9 @@ export interface IProduct extends Document {
 	price: number;
 	brand: string;
 	quantity: number;
+	seller: string | ObjectId;
+	category: string;
+	type: string;
 	images: Image[];
 }
 

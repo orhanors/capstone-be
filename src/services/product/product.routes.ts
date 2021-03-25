@@ -6,18 +6,21 @@ import {
 	addNewProduct,
 	deleteProduct,
 	removeImage,
+	getSellerProducts,
 	updateProduct,
 	uploadProductImages,
+	getProducts,
 } from "./product.controller";
 import cloudinaryMulter from "../../middlewares/cloudinary/cloudinaryMulter";
 import {
-	maxProductImageSize,
-	productCloudinaryFolder,
-	productImageKey,
+	MAX_PRODUCT_IMAGE_SIZE,
+	PRODUCT_CLOUDINARY_FOLDER,
+	PRODUCT_IMAGE_KEY,
 } from "../../settings/constants";
 
 const productRouter = Router();
 
+productRouter.get("/", validateToken, tryCatchWrapper(getProducts));
 productRouter.post(
 	"/",
 	validateToken,
@@ -28,7 +31,7 @@ productRouter.post(
 	"/upload/images/:productId",
 	validateToken,
 	validateSeller,
-	cloudinaryMulter.array(productImageKey, maxProductImageSize),
+	cloudinaryMulter.array(PRODUCT_IMAGE_KEY, MAX_PRODUCT_IMAGE_SIZE),
 	tryCatchWrapper(uploadProductImages)
 );
 
@@ -52,6 +55,13 @@ productRouter.delete(
 	validateToken,
 	validateSeller,
 	tryCatchWrapper(removeImage)
+);
+
+productRouter.get(
+	"/seller",
+	validateToken,
+	validateSeller,
+	tryCatchWrapper(getSellerProducts)
 );
 
 export default productRouter;
