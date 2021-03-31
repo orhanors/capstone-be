@@ -1,7 +1,7 @@
 import cloudinaryUpload from "cloudinary";
 import multer from "multer";
 import { CloudinaryStorage } from "multer-storage-cloudinary";
-import { productCloudinaryFolder } from "../../settings/constants";
+import { PRODUCT_CLOUDINARY_FOLDER } from "../../settings/constants";
 const {
 	cloudinaryCloudName,
 	cloudinaryApiSecret,
@@ -19,7 +19,7 @@ cloudinary.config({
 const storage = new CloudinaryStorage({
 	cloudinary: cloudinary,
 	params: {
-		folder: productCloudinaryFolder,
+		folder: PRODUCT_CLOUDINARY_FOLDER,
 	},
 });
 

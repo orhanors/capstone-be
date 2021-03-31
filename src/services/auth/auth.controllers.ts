@@ -2,8 +2,10 @@ import { Request, Response, NextFunction } from "express";
 import { IUser, UserModel } from "../user";
 import ApiError from "../../utils/errors/ApiError";
 import { generateTokens } from "../../utils/auth/jwt";
-import { refreshTokenPath } from "../../settings/constants";
+import { REFRESH_TOKEN_PATH } from "../../settings/constants";
 import { handleRefreshToken } from "../../utils/auth/refreshTokenHandler";
+import { Cart } from "../cart";
+const { redirectUrl } = require("../../config/keys");
 
 export const signup = async (req: Request, res: Response) => {
 	const { email } = req.body;
@@ -13,6 +15,7 @@ export const signup = async (req: Request, res: Response) => {
 		throw new ApiError(400, "Email already exist!");
 	}
 	const newUser = new UserModel({ ...req.body });
+	await Cart.generateNewCart(newUser._id);
 	await newUser.save();
 
 	res.status(201).send(newUser);
@@ -30,10 +33,10 @@ export const login = async (req: Request, res: Response) => {
 	res.cookie("token", tokens.token, { httpOnly: true });
 	res.cookie("refreshToken", tokens.refreshToken, {
 		httpOnly: true,
-		path: refreshTokenPath,
+		path: REFRESH_TOKEN_PATH,
 	});
 	res.cookie("isAuthUser", true);
-	res.status(200).send("Ok");
+	res.status(201).send(user);
 };
 
 export const refreshTokenHandler = async (req: Request, res: Response) => {
