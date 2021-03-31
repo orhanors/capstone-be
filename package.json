@@ -7,7 +7,7 @@
 		"test": "jest",
 		"dev": "nodemon -r dotenv/config ./src/server.ts",
 		"build": "tsc",
-		"start": "tsc --skipLibCheck=true && node build/server.js"
+		"start": "tsc && node build/server.js"
 	},
 	"repository": {
 		"type": "git",
