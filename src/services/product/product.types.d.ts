@@ -10,6 +10,7 @@ export interface IProduct extends Document {
 	category: string;
 	type: string;
 	images: Image[];
+	slug: string;
 }
 
 export interface ImageProperties {

@@ -21,6 +21,7 @@ const ProductSchema: Schema = new Schema(
 		},
 		images: [{ url: String, id: String }],
 		seller: { type: Schema.Types.ObjectId, ref: "User" },
+		slug: { type: String, lowercase: true, unique: true },
 	},
 	{ timestamps: true }
 );

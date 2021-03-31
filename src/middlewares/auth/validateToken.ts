@@ -28,8 +28,8 @@ export const validateToken = async (
 		next();
 	} catch (error) {
 		//TODO this could be 500
-		// next(new ApiError(401, "Unauthorized"));
+		next(new ApiError(401, "Unauthorized"));
 		logger.error(error);
-		next(error);
+		// next(error);
 	}
 };

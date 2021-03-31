@@ -18,6 +18,19 @@ export const addProductToCart = async (req: Request, res: Response) => {
 	res.status(201).send(updatedCart);
 };
 
+export const addMultipleProducts = async (req: Request, res: Response) => {
+	const user = req.user as IUser;
+	const userId = user._id;
+	const { productId, price, qty } = req.body;
+
+	const cart = await Cart.findOne({ user: userId });
+
+	if (!cart) throw new ApiError(404, "Cart not found");
+
+	const updatedCart = await cart.addProductToCart(productId, price, qty);
+
+	res.status(201).send(updatedCart);
+};
 export const removeProductFromCart = async (req: Request, res: Response) => {
 	const user = req.user as IUser;
 	const userId = user._id;

@@ -6,6 +6,7 @@ import {
 	decreaseProductQty,
 	getUserCart,
 	removeProductFromCart,
+	addMultipleProducts,
 } from "./cart.controller";
 
 const cartRouter = Router();
@@ -13,6 +14,12 @@ const cartRouter = Router();
 //body -> {productId,price}
 cartRouter.post("/add", validateToken, tryCatchWrapper(addProductToCart));
 
+//body -> {productId,price,qty}
+cartRouter.post(
+	"/addMultiple",
+	validateToken,
+	tryCatchWrapper(addMultipleProducts)
+);
 cartRouter.post(
 	"/decrease",
 	validateToken,

@@ -30,10 +30,18 @@ CartSchema.statics.generateNewCart = async function (
 
 CartSchema.methods.addProductToCart = async function (
 	productId: Schema.Types.ObjectId | string,
-	price: number
+	price: number,
+	qty?: number
 ): Promise<ICart | null | undefined> {
 	let cart = this as ICart;
 
+	const calculateTotal = (price: number) => {
+		if (qty) {
+			return qty * price;
+		} else {
+			return price;
+		}
+	};
 	const populateProduct = (): Promise<ICart> => {
 		return new Promise((res, rej) => {
 			cart.populate("products.product", (err, response) => {
@@ -50,9 +58,10 @@ CartSchema.methods.addProductToCart = async function (
 	);
 
 	if (!foundProduct) {
-		const newProduct: ICartProduct = { product: productId, qty: 1 };
+		const newProduct: ICartProduct = { product: productId, qty: qty || 1 };
 		cart.products.push(newProduct);
-		cart.total += price;
+
+		cart.total += calculateTotal(price);
 		await cart.save();
 		cart = await populateProduct();
 		return cart;
@@ -62,7 +71,12 @@ CartSchema.methods.addProductToCart = async function (
 				_id: cart._id,
 				products: { $elemMatch: { product: { $eq: productId } } },
 			},
-			{ $inc: { "products.$.qty": 1, total: price } },
+			{
+				$inc: {
+					"products.$.qty": qty || 1,
+					total: calculateTotal(price),
+				},
+			},
 			{ new: true }
 		).populate("products.product");
 		return updatedQty;

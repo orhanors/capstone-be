@@ -13,7 +13,8 @@ export interface ICart extends Document {
 	total: number;
 	addProductToCart(
 		productId: string | ObjectId,
-		price: number
+		price: number,
+		qty?: number
 	): Promise<ICart | null>;
 	deleteProductFromCart(
 		productId: string | ObjectId,

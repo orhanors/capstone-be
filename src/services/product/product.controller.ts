@@ -86,6 +86,15 @@ export const removeImage = async (
 		.catch((e) => next!(new ApiError(500)));
 };
 
+export const getProductBySlug = async (req: Request, res: Response) => {
+	const { slug } = req.params;
+
+	const foundProduct = await Product.findOne({ slug }, { __v: 0 });
+
+	if (!foundProduct) throw new ApiError(404, "Product not found!");
+	res.status(200).send(foundProduct);
+};
+
 export const getSellerProducts = async (req: Request, res: Response) => {
 	const seller = req.user as IUser;
 

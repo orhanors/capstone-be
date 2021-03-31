@@ -10,6 +10,7 @@ import {
 	updateProduct,
 	uploadProductImages,
 	getProducts,
+	getProductBySlug,
 } from "./product.controller";
 import cloudinaryMulter from "../../middlewares/cloudinary/cloudinaryMulter";
 import {
@@ -21,6 +22,11 @@ import {
 const productRouter = Router();
 
 productRouter.get("/", validateToken, tryCatchWrapper(getProducts));
+productRouter.get(
+	"/slug/:slug",
+	validateToken,
+	tryCatchWrapper(getProductBySlug)
+);
 productRouter.post(
 	"/",
 	validateToken,
