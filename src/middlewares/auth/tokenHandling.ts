@@ -1,5 +1,5 @@
 import { Request, Response, NextFunction } from "express";
-import { refreshTokenPath } from "../../settings/constants";
+import { REFRESH_TOKEN_PATH } from "../../settings/constants";
 import { logger } from "../../utils/logger/winston";
 const { redirectUrl } = require("../../config/keys");
 const handleTokens = async (
@@ -13,7 +13,7 @@ const handleTokens = async (
 		res.cookie("token", token, { httpOnly: true });
 		res.cookie("refreshToken", refreshToken, {
 			httpOnly: true,
-			path: refreshTokenPath,
+			path: REFRESH_TOKEN_PATH,
 		});
 		res.cookie("isAuthUser", true);
 		res.redirect(redirectUrl);

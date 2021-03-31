@@ -2,6 +2,7 @@ import { Request, Response, NextFunction } from "express";
 import { UserModel } from "../../services/user";
 import { verifyJWT } from "../../utils/auth/jwt";
 import ApiError from "../../utils/errors/ApiError";
+import { logger } from "../../utils/logger/winston";
 
 export const validateToken = async (
 	req: Request,
@@ -28,5 +29,7 @@ export const validateToken = async (
 	} catch (error) {
 		//TODO this could be 500
 		next(new ApiError(401, "Unauthorized"));
+		logger.error(error);
+		// next(error);
 	}
 };

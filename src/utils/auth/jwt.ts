@@ -25,7 +25,7 @@ const generateTokens = async (user: IUser) => {
 
 const generateJWT = (payload: IPayload): Promise<string | undefined> =>
 	new Promise((res, rej) => {
-		jwt.sign(payload, jwtSecret, { expiresIn: "15m" }, (err, token) => {
+		jwt.sign(payload, jwtSecret, { expiresIn: "1h" }, (err, token) => {
 			if (err) rej(err);
 			res(token);
 		});
