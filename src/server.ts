@@ -12,7 +12,7 @@ initialSetup(server); //Keeps initial middlewares
 errorHandling(server);
 dbConnection();
 
-server.listen(port, () => {
+server.listen(port || 3001, () => {
 	if (process.env.NODE_ENV === "production") {
 		logger.info(`🚀 Server is running on CLOUD on PORT: , ${port}`);
 	} else {
