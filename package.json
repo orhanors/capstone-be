@@ -6,8 +6,7 @@
 	"scripts": {
 		"test": "jest",
 		"dev": "nodemon -r dotenv/config ./src/server.ts",
-		"postinstall": "tsc",
-		"start": "node build/server.js"
+		"build": "tsc && node build/server.js"
 	},
 	"repository": {
 		"type": "git",
