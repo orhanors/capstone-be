@@ -51,6 +51,20 @@ const unAuthorizedHandler = (
 	next(err);
 };
 
+const unSuppertedMediaType = (
+	err: IError,
+	req: Request,
+	res: Response,
+	next: NextFunction
+) => {
+	if (err.httpStatusCode === 415) {
+		return res.status(401).json({
+			errors: err.message || "Unsupported Media Type!",
+			code: 415,
+		});
+	}
+	next(err);
+};
 const forbiddenHandler = (
 	err: IError,
 	req: Request,
@@ -91,6 +105,7 @@ const handleErrors = function (server: Application) {
 	server.use(badRequestHandler);
 	server.use(notFoundHandler);
 	server.use(forbiddenHandler);
+	server.use(unSuppertedMediaType);
 	server.use(unAuthorizedHandler);
 	server.use(genericHandler);
 };

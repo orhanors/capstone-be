@@ -17,7 +17,6 @@ export const deleteSingleImg = (imageId: string): Promise<any> => {
 
 				rej(err);
 			} else {
-				console.log("response.result = ", response.result);
 				response.result === "ok"
 					? res(true)
 					: rej(new ApiError(404, "Image not found"));
