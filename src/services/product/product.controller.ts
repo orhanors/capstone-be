@@ -6,7 +6,7 @@ import {
 	deleteProductImages,
 	deleteSingleImg,
 } from "../../utils/products/deleteImages";
-import { logger } from "../../utils/logger/winston";
+
 import { IUser } from "../user/user.types.d";
 
 export const getProducts = async (req: Request, res: Response) => {
