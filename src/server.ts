@@ -6,6 +6,7 @@ import { logger } from "./utils/logger/winston";
 
 const server = express();
 require("./middlewares/auth/passport");
+require("./utils/cache");
 //require("./startup/optimization"); //optimize threads according to different machines
 initialSetup(server); //Keeps initial middlewares
 errorHandling(server);
