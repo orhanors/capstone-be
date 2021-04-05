@@ -1,4 +1,4 @@
-import { model, Schema, Model } from "mongoose";
+import { model, Schema } from "mongoose";
 import { USER_ROLES, USER_DEFAULT_AVATAR } from "../../settings/constants";
 import { logger } from "../../utils/logger/winston";
 import { IUser, IUserModel } from "./user.types";

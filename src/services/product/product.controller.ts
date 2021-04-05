@@ -10,7 +10,7 @@ import {
 import { IUser } from "../user/user.types.d";
 
 export const getProducts = async (req: Request, res: Response) => {
-	const products = await Product.find({});
+	const products = await Product.find({}).cache();
 	res.status(200).send(products);
 };
 

@@ -1,11 +1,10 @@
-import { Request, Response, NextFunction } from "express";
+import { Request, Response } from "express";
 import { IUser, UserModel } from "../user";
 import ApiError from "../../utils/errors/ApiError";
 import { generateTokens } from "../../utils/auth/jwt";
 import { REFRESH_TOKEN_PATH } from "../../settings/constants";
 import { handleRefreshToken } from "../../utils/auth/refreshTokenHandler";
 import { Cart } from "../cart";
-const { redirectUrl } = require("../../config/keys");
 
 export const signup = async (req: Request, res: Response) => {
 	const { email } = req.body;
