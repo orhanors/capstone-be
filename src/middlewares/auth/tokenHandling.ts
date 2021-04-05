@@ -10,10 +10,16 @@ const handleTokens = async (
 	try {
 		//@ts-ignore
 		const { token, refreshToken } = req.user.tokens;
-		res.cookie("token", token, { httpOnly: true });
+		res.cookie("token", token, {
+			httpOnly: true,
+			secure: process.env.NODE_ENV === "production" ? true : false,
+			sameSite: process.env.NODE_ENV === "production" ? "none" : false,
+		});
 		res.cookie("refreshToken", refreshToken, {
 			httpOnly: true,
 			path: REFRESH_TOKEN_PATH,
+			secure: process.env.NODE_ENV === "production" ? true : false,
+			sameSite: process.env.NODE_ENV === "production" ? "none" : false,
 		});
 		res.cookie("isAuthUser", true);
 		res.redirect(redirectUrl);
