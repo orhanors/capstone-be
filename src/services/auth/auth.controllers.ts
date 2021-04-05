@@ -9,6 +9,7 @@ const { redirectUrl } = require("../../config/keys");
 
 export const signup = async (req: Request, res: Response) => {
 	const { email } = req.body;
+
 	const foundUserWithEmail = await UserModel.findOne({ email });
 
 	if (foundUserWithEmail) {

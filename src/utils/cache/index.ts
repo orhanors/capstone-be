@@ -1,7 +1,7 @@
 import mongoose, { model } from "mongoose";
 import redis from "redis";
-import { CacheOptions } from "../../types/mongoose";
-
+//import { CacheOptions } from "../../types/mongoose";
+type CacheOptions = { key?: string };
 const client = redis.createClient();
 
 const getCache = function (
@@ -38,6 +38,7 @@ mongoose.Query.prototype.exec = async function () {
 	const cacheValue = await getCache(this.hashKey, key);
 
 	if (cacheValue) {
+		console.log("DATA FROM CACHE");
 		const doc = JSON.parse(cacheValue);
 
 		//convert plain object to mongoose object

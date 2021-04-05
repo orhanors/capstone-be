@@ -1,10 +1,10 @@
-import { Model } from "mongoose";
+import { Document, Model, Query } from "mongoose";
 
-export type CacheOptions = { key?: string };
+//type CacheOptions = { key?: string };
 
 declare module "mongoose" {
 	interface Query<T> {
-		cache(options?: CacheOptions): Query<T>;
+		cache(): Query<T>;
 		useCache: boolean;
 		hashKey: string;
 		model: Model<T>;
