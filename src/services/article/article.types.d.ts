@@ -5,4 +5,6 @@ export interface IArticle extends Document {
 	title: string;
 	content: string;
 	tags: Array<string>;
+	images: string;
+	slug: string;
 }

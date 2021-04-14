@@ -73,10 +73,13 @@ export const decreaseProductQty = async (req: Request, res: Response) => {
 
 export const getUserCart = async (req: Request, res: Response) => {
 	const user = req.user as IUser;
+
 	const userId = user._id;
+
 	const userCart = await Cart.findOne({ user: userId }).populate(
 		"products.product"
 	);
+
 	if (!userCart) throw new ApiError(404, "Cart not found");
 	res.status(201).send(userCart);
 };
