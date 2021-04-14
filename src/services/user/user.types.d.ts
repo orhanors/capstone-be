@@ -20,6 +20,15 @@ export interface IUser extends Document {
 	googleId?: string;
 	refreshTokens: Array<Token>;
 	cart: string | ObjectId;
+	reviews: Array<string | ObjectId>;
+	phone: Number;
+	address: {
+		country: string;
+		city: string;
+		line1: string;
+		line2: string;
+		postalCode: number;
+	};
 }
 
 export interface IUserModel extends Model<IUser> {

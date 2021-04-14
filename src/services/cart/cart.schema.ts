@@ -11,7 +11,7 @@ const CartSchema: Schema = new Schema(
 				qty: { type: Number },
 			},
 		],
-		total: { type: Number },
+		total: { type: Number, default: 0 },
 	},
 	{ timestamps: true }
 );

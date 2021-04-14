@@ -20,3 +20,7 @@ export const USER_DEFAULT_AVATAR =
 
 //🍎 AUTH
 export const REFRESH_TOKEN_PATH = "/api/auth/refreshToken";
+
+
+//🔖 ARTICLE
+export const ARTICLE_IMAGE_KEY="article"

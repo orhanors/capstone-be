@@ -3,7 +3,7 @@ import initialSetup from "./startup/middlewares";
 import dbConnection from "./startup/db";
 import errorHandling from "./middlewares/error/errorHandling";
 import { logger } from "./utils/logger/winston";
-import "./utils/cache";
+//import "./utils/cache";
 
 const server = express();
 require("./middlewares/auth/passport");

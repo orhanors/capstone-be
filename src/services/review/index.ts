@@ -1,3 +1,3 @@
 import Review from "./review.schema";
-
-export { Review };
+import reviewRoutes from "./review.routes";
+export { Review, reviewRoutes };

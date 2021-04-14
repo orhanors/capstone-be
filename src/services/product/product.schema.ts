@@ -22,6 +22,8 @@ const ProductSchema: Schema = new Schema(
 		images: [{ url: String, id: String }],
 		seller: { type: Schema.Types.ObjectId, ref: "User" },
 		slug: { type: String, lowercase: true, unique: true },
+		reviews: [{ type: Schema.Types.ObjectId, ref: "Review" }],
+		reviewAverage: { type: Number, default: 5 },
 	},
 	{ timestamps: true }
 );

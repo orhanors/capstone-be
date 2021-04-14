@@ -2,6 +2,7 @@ import { model, Schema } from "mongoose";
 import { USER_ROLES, USER_DEFAULT_AVATAR } from "../../settings/constants";
 import { logger } from "../../utils/logger/winston";
 import { IUser, IUserModel } from "./user.types";
+import Review from "../review/review.schema";
 const bcrypt = require("bcrypt");
 
 const UserSchema: Schema = new Schema(
@@ -24,6 +25,18 @@ const UserSchema: Schema = new Schema(
 		},
 
 		cart: { type: Schema.Types.ObjectId, ref: "Cart" },
+		productReviews: [{ type: Schema.Types.ObjectId, ref: "Review" }],
+		articleReviews: [{ type: Schema.Types.ObjectId, ref: "Review" }],
+		phone: {
+			type: String,
+		},
+		address: {
+			country: String,
+			city: String,
+			line1: String,
+			line2: String,
+			postalCode: Number,
+		},
 	},
 	{ timestamps: true }
 );
@@ -41,7 +54,7 @@ UserSchema.pre<IUser>("save", async function (next) {
 });
 
 UserSchema.statics.findByCredentials = async function (
-	email: string,
+	email: String,
 	password: string
 ): Promise<null | any> {
 	const user: any = await this.findOne({ email });

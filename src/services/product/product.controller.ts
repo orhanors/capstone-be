@@ -9,9 +9,19 @@ import {
 
 import { IUser } from "../user/user.types.d";
 
+const DEFAULT_PAGE_NO = 1;
+const DEFAULT_PRODUCT_LIMIT = 2;
+
 export const getProducts = async (req: Request, res: Response) => {
-	const products = await Product.find({}).cache();
-	res.status(200).send(products);
+	let { page = DEFAULT_PAGE_NO, limit = DEFAULT_PRODUCT_LIMIT } = req.query;
+
+	page = Number(page);
+	limit = Number(limit);
+	const products = await Product.find({})
+		.limit(limit)
+		.skip((page - 1) * limit);
+	const count = await Product.count();
+	res.status(200).send({ data: products, metadata: { count: count } });
 };
 
 export const uploadProductImages = async (req: Request, res: Response) => {
