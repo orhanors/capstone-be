@@ -21,7 +21,11 @@ const handleTokens = async (
 			secure: process.env.NODE_ENV === "development" ? false : true,
 			sameSite: process.env.NODE_ENV === "development" ? "none" : true,
 		});
-		res.cookie("isAuthUser", true);
+		res.cookie("isAuthUser", true, {
+			httpOnly: true,
+			secure: process.env.NODE_ENV === "development" ? false : true,
+			sameSite: process.env.NODE_ENV === "development" ? "none" : true,
+		});
 		res.redirect(redirectUrl);
 	} catch (error) {
 		logger.error(error);
